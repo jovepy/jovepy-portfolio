@@ -66,11 +66,39 @@ export default function Home() {
                             
                           <div className="modal-body">
                           <div className='row'>
-                            <h2>Python</h2>
+                          <div className='d-grid gap-3'>
                           </div>
+                          <h3 className='fw-light fs-5'>Python</h3>
                           <div className="progress">
                           <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width:"98%"}}></div>
                           </div>
+                          <h3 className='fw-light fs-5' >Web Developer</h3>
+                          <div className="progress">
+                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:"80%"}}></div>
+                          </div>
+                          <h3 className='fw-light fs-5'>Django</h3>
+                          <div className="progress">
+                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width:"85%"}}></div>
+                          </div>
+                          <h3 className='fw-light fs-5'>Next.js</h3>
+                          <div className="progress">
+                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width:"75%"}}></div>
+                          </div>
+                          <h3 className='fw-light fs-5'>Bootstrap</h3>
+                          <div className="progress">
+                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}></div>
+                          </div>
+                          <h3 className='fw-light fs-5'>Extração de dados</h3>
+                          <div className="progress">
+                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}></div>
+                          </div>
+                          <h3 className='fw-light fs-5'>Estruturação de dados</h3>
+                          <div className="progress">
+                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}></div>
+                          </div>
+                          </div>
+
+                          
                           <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" className="btn btn-primary">Save changes</button>
