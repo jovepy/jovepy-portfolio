@@ -1,12 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import 'reactjs-popup/dist/index.css';
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
 import Head from 'next/head';
 
+
 const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
 }
+
+
+
+
 
 export default function Home() {
   return (
@@ -19,6 +25,7 @@ export default function Home() {
               <meta charset="utf-8"></meta> 
               <meta name="robots" content="index,follow"></meta>
               <meta name="googlebot" content="index,follow"></meta>
+          
           
           </Head>
       </div>
@@ -47,9 +54,79 @@ export default function Home() {
                 <h5 className="card-title text-start p-4">Rodrigo Jovê</h5>
                 <p className="fw-light card-text text-start align-middle">
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item">Habilidades</li>
-                  <li className="list-group-item">Trajetória</li>
-                  <li className="list-group-item">Blog</li>
+                  <li className="list-group list-group-flush">
+                  <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Habilidades
+                    </a>
+                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div className="modal-dialog">
+                        <div className="modal-content">
+                          <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div className="modal-body">
+                            ...
+                          </div>
+                          <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    </li>
+                  
+                    <li className="list-group list-group-flush">
+                  <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Sobre
+                    </a>
+                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div className="modal-dialog">
+                        <div className="modal-content">
+                          <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div className="modal-body">
+                            ...
+                          </div>
+                          <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    </li>
+
+
+                    <li className="list-group list-group-flush">
+                  <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Caderno
+                    </a>
+                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div className="modal-dialog">
+                        <div className="modal-content">
+                          <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div className="modal-body">
+                            ...
+                          </div>
+                          <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    </li>
+
                 </ul>
                 </p>
               </div>
@@ -72,7 +149,7 @@ export default function Home() {
               <p className="card-text">Esse portfólio é dividido em duas seções, serviços e projetos. Na primeira seção você encontrará os serviços profissionais desenvolvidos por mim, já na segunda, projetos abertos à população.</p>
             </div>
             <div className="card-footer text-muted">
-              última atualização há 3 dias
+              Jove.py - Portfólio
             </div>
           </div>
           
@@ -93,18 +170,22 @@ export default function Home() {
         <a href="#" className="list-group-item list-group-item-action" aria-current="true">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Automação de Processos Operacionais</h5>
-            <small>3 days ago</small>
+            <small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-globe" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+            </svg></small>
           </div>
-          <p className="mb-1">Some placeholder content in a paragraph.</p>
-          <small>And some small print.</small>
+          <p className="mb-1">Identifique informações e as insira em sistemas automaticamente</p>
+          <small>PDF's, imagens, papéis e sites</small>
         </a>
         <a href="#" className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Sites com foco em celulares</h5>
-            <small className="text-muted">3 days ago</small>
+            <small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-globe" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+            </svg></small>
           </div>
-          <p className="mb-1">Some placeholder content in a paragraph.</p>
-          <small className="text-muted">And some muted small print.</small>
+          <p className="mb-1">Tenha um site focado em mobile e alcance mais pessoas</p>
+          <small className="text-muted">sites com layout específicos para mobile</small>
         </a>
       </div>
 
@@ -113,20 +194,24 @@ export default function Home() {
       <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
       <div className='row'><br></br></div>
       <div className="list-group">
-        <a href="#" className="list-group-item list-group-item-action" aria-current="true">
+        <a href="#" className="list-group-item list-group-item-action" aria-current="false">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Empreenda</h5>
-            <small>3 days ago</small>
+            <small className="text-muted">Updated <relative-time datetime="2022-05-18T22:50:41Z" className="no-wrap" title="18 de mai. de 2022 19:50 BRT">on 18 May</relative-time></small>
           </div>
-          <p className="mb-1">Some placeholder content in a paragraph.</p>
-          <small>And some small print.</small>
+          <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemprop="description">
+          Microestrutura de serviços úteis a qualquer empreendedor com baixo capital
+        </p></p>
+          <small>Atendimento ao cliente, gerencimamento de estoques e precificação</small>
         </a>
         <a href="#" className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Opere com derivativos</h5>
-            <small className="text-muted">3 days ago</small>
+            <small className="text-muted">Updated <relative-time datetime="2022-06-22T00:08:25Z" className="no-wrap" title="21 de jun. de 2022 21:08 BRT">on 21 Jun</relative-time></small>
           </div>
-          <p className="mb-1">Some placeholder content in a paragraph.</p>
+          <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemprop="description">
+          Estruture os dados contidos no BDI e encontre as opções mais baratas em relação ao modelo de Black-Scholes
+        </p></p>
           <small className="text-muted">And some muted small print.</small>
         </a>
         <a href="#" className="list-group-item list-group-item-action">

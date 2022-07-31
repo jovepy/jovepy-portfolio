@@ -1,6 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
+import 'reactjs-popup/dist/index.css';
 import { useEffect } from "react";
+
+
 
 
 function MyApp({ Component, pageProps }) {
