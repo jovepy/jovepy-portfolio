@@ -7,7 +7,7 @@ import Head from 'next/head'
 
 
 const myLoader = ({ src, width, quality }) => {
-  return './${src}?w=${width}&q=${quality || 75}'
+  return `./${src}?w=${width}&q=${quality || 75}`
 }
 
 export default function Home() {
@@ -171,7 +171,7 @@ export default function Home() {
             </svg></small>
           </div>
           <p className="mb-1">Identifique informações e as insira em sistemas automaticamente</p>
-          <small>PDF's, imagens, papéis e sites</small>
+          <small>PDFs, imagens, papéis e sites</small>
         </a>
         <a href="#" className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
