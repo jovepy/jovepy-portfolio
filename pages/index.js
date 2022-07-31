@@ -61,13 +61,22 @@ export default function Home() {
                             <h5 className="modal-title" id="exampleModalLabel">Minhas Habilidades</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
+                          
+                            
+                            
                           <div className="modal-body">
-                            ...
+                          <div className='row'>
+                            <h2>Python</h2>
+                          </div>
+                          <div className="progress">
+                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width:"98%"}}></div>
                           </div>
                           <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             <button type="button" className="btn btn-primary">Save changes</button>
+                          
                           </div>
+                        </div>
                         </div>
                       </div>
                     </div>
@@ -75,18 +84,18 @@ export default function Home() {
                     </li>
                   
                     <li className="list-group list-group-flush">
-                  <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal1">
                       Sobre
                     </a>
-                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                       <div className="modal-dialog">
                         <div className="modal-content">
                           <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Sobre Rodrigo Jovê</h5>
+                            <h5 className="modal-title" id="exampleModalLabel1">Sobre Rodrigo Jovê</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div className="modal-body">
-                            ...
+                            teste
                           </div>
                           <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -100,14 +109,14 @@ export default function Home() {
 
 
                     <li className="list-group list-group-flush">
-                  <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal2">
                       Caderno
                     </a>
-                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
                       <div className="modal-dialog">
                         <div className="modal-content">
                           <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Caderno Público</h5>
+                            <h5 className="modal-title" id="exampleModalLabel2">Caderno Público</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div className="modal-body">
