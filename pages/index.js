@@ -58,7 +58,7 @@ export default function Home() {
                   <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
                       Habilidades
                     </a>
-                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div className="modal-dialog">
                         <div className="modal-content">
                           <div className="modal-header">
@@ -82,7 +82,7 @@ export default function Home() {
                   <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
                       Sobre
                     </a>
-                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div className="modal-dialog">
                         <div className="modal-content">
                           <div className="modal-header">
@@ -107,7 +107,7 @@ export default function Home() {
                   <a type="button" className='list-group-item' data-bs-toggle="modal" data-bs-target="#exampleModal">
                       Caderno
                     </a>
-                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div className="modal-dialog">
                         <div className="modal-content">
                           <div className="modal-header">
