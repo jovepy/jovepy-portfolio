@@ -10,10 +10,6 @@ const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
 }
 
-
-
-
-
 export default function Home() {
   return (
     <div>
@@ -199,7 +195,7 @@ export default function Home() {
             <h5 className="mb-1">Empreenda</h5>
             <small className="text-muted">Updated <relative-time datetime="2022-05-18T22:50:41Z" className="no-wrap" title="18 de mai. de 2022 19:50 BRT">on 18 May</relative-time></small>
           </div>
-          <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemprop="description">
+          <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemProp="description">
           Microestrutura de serviços úteis a qualquer empreendedor com baixo capital
         </p></p>
           <small>Atendimento ao cliente, gerencimamento de estoques e precificação</small>
@@ -209,7 +205,7 @@ export default function Home() {
             <h5 className="mb-1">Opere com derivativos</h5>
             <small className="text-muted">Updated <relative-time datetime="2022-06-22T00:08:25Z" className="no-wrap" title="21 de jun. de 2022 21:08 BRT">on 21 Jun</relative-time></small>
           </div>
-          <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemprop="description">
+          <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemProp="description">
           Estruture os dados contidos no BDI e encontre as opções mais baratas em relação ao modelo de Black-Scholes
         </p></p>
           <small className="text-muted">And some muted small print.</small>
