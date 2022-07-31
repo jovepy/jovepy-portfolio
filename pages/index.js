@@ -14,7 +14,7 @@ export default function Home() {
       <div>
           <Head>        
           
-            <title >Automação de Processos Operacionais com Python</title>
+            <title >Jovepy - Portfólio</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
               <meta charset="utf-8"></meta> 
               <meta name="robots" content="index,follow"></meta>
@@ -28,7 +28,7 @@ export default function Home() {
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
-          <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Orçamento</button>
+          <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Portfólio</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
         </div>
       </nav>
@@ -37,20 +37,19 @@ export default function Home() {
         <div className='row'><br></br></div> 
         <div className="card mb-3">
           <div className="row g-0">
-            <div className="col-md-4">
+            <div className="col-md-4 text-center">
             <div className='row'><br></br></div>
             <div className='row'><br></br></div>
-            <Image className="img-fluid rounded-start" loader={myLoader} src='./atencaocliente2.gif' alt="Criamos a sua solulçao" width={480} height={270} />  
+            <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.jpg' alt="Criamos a sua solulçao" width={150} height={150} />  
             </div>
-            <div className="col-md-8">
+            <div className="col-sm-8">
               <div className="card-body align-middle ">
-                <h5 className="card-title text-start p-4">Automação de processos operacionais com Python</h5>
+                <h5 className="card-title text-start p-4">Rodrigo Jovê</h5>
                 <p className="fw-light card-text text-start align-middle">
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item">Extração de dados de documentos PDF, Imagens e sites;</li>
-                  <li className="list-group-item">Insira dados de papéis em sistemas automaticamente;</li>
-                  <li className="list-group-item">Transforme métodos operacionais em processos automáticos;</li>
-                  <li className="list-group-item">Otimize processos complexos;</li>
+                  <li className="list-group-item">Habilidades</li>
+                  <li className="list-group-item">Trajetória</li>
+                  <li className="list-group-item">Blog</li>
                 </ul>
                 </p>
               </div>
@@ -59,46 +58,102 @@ export default function Home() {
           </div>
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
-        <div className='row'><br></br></div>
+        
         <div className="row">            
           <div className='container-fluid p-4'>
         
           <div className="row">
+          <div className="card text-center">
+            <div className="card-header">
+              Encontre alguns projetos
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">O que você vai encontrar aqui?</h5>
+              <p className="card-text">Esse portfólio é dividido em duas seções, serviços e projetos. Na primeira seção você encontrará os serviços profissionais desenvolvidos por mim, já na segunda, projetos abertos à população.</p>
+            </div>
+            <div className="card-footer text-muted">
+              última atualização há 3 dias
+            </div>
+          </div>
+          
   <div className="col-sm-4 text-center text-truncate">
+  <div className='row'><br></br></div>
     <div className="list-group" id="list-tab" role="tablist">
-      <a className="list-group-item list-group-item-action active p-2" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Solicitação</a>
-      <a className="list-group-item list-group-item-action p-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile p-2">Retorno</a>
-      <a className="list-group-item list-group-item-action p-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Garantias</a>
-      <a className="list-group-item list-group-item-action p-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Contrato</a>
+      <a className="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Serviços</a>
+      <a className="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Projetos</a>
+
     </div>
   </div>
   <div className="col-sm-7 text-start align-middle">
-    <div className="tab-content" id="nav-tabContent">
+    <div className="tab-content" id="nav-tabContent">      
       <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+      
       <div className='row'><br></br></div>
-      <p> A solcitação do orçamento de uma automação personalizada pode ser feita via <b type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Whatsapp</b> ou pelo preenchimento deste <b type="button" onClick={() => Router.push('https://docs.google.com/forms/d/e/1FAIpQLSerVowSRjT87Lpk0wQcztx97Ww7orV7Suudu7zo9qxoHssOnQ/viewform')}>Formulário</b>.</p>
+      <div className="list-group">
+        <a href="#" className="list-group-item list-group-item-action" aria-current="true">
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Automação de Processos Operacionais</h5>
+            <small>3 days ago</small>
+          </div>
+          <p className="mb-1">Some placeholder content in a paragraph.</p>
+          <small>And some small print.</small>
+        </a>
+        <a href="#" className="list-group-item list-group-item-action">
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Sites com foco em celulares</h5>
+            <small className="text-muted">3 days ago</small>
+          </div>
+          <p className="mb-1">Some placeholder content in a paragraph.</p>
+          <small className="text-muted">And some muted small print.</small>
+        </a>
+      </div>
+
 
       </div>
       <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
       <div className='row'><br></br></div>
-      <p>Perante a individualidade de cada processo, uma análise sobre a viabilidade da automação é realizada e o retorno ao cliente será executado em até 5 dias úteis. Nesse retorno constará um planejamento prévio do projeto, acentuando-se as possíveis dificuldades, bem como as possíveis soluções e o preço global do projeto.</p>
+      <div className="list-group">
+        <a href="#" className="list-group-item list-group-item-action" aria-current="true">
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Empreenda</h5>
+            <small>3 days ago</small>
+          </div>
+          <p className="mb-1">Some placeholder content in a paragraph.</p>
+          <small>And some small print.</small>
+        </a>
+        <a href="#" className="list-group-item list-group-item-action">
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Opere com derivativos</h5>
+            <small className="text-muted">3 days ago</small>
+          </div>
+          <p className="mb-1">Some placeholder content in a paragraph.</p>
+          <small className="text-muted">And some muted small print.</small>
+        </a>
+        <a href="#" className="list-group-item list-group-item-action">
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Chatboot de Whatsapp</h5>
+            <small className="text-muted">3 days ago</small>
+          </div>
+          <p className="mb-1">Some placeholder content in a paragraph.</p>
+          <small className="text-muted">And some muted small print.</small>
+        </a>
+        <a href="#" className="list-group-item list-group-item-action">
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Assessor Digital de Investimentos</h5>
+            <small className="text-muted">3 days ago</small>
+          </div>
+          <p className="mb-1">Some placeholder content in a paragraph.</p>
+          <small className="text-muted">And some muted small print.</small>
+        </a>
+      </div>
 
       </div>
-      <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+            <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
       <div className='row'><br></br></div>
+      <p> <b type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> Clique aqui</b> para visualizar nosso contrato padrão.</p>  
+      </div>
+
       
-      <ul className="list-group list-group-flush">
-        <li className="list-group-item">O ressarcimento do valor pago pode ser feito de forma proporcional ao projeto desenvolvido, tendo como referência o cronograma vigente do contrato.</li>
-        <li className="list-group-item">A manutenção e tratamento de erros é válida por três meses após a entrega do projeto.</li>
-        <li className="list-group-item">Confire todas as garantias, direitos, deveres e obrigações dessa prestação de serviço em nosso <b type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> Contrato</b></li>      
-      </ul>
-
-      </div>
-      <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-      <div className='row'><br></br></div>
-      <p> <b type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> Clique aqui</b> para visualizar nosso contrato padrão.</p>
-              
-      </div>
     </div>
   </div>
 </div>
