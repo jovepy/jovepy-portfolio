@@ -3,7 +3,7 @@ import 'reactjs-popup/dist/index.css';
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
-import Head from 'next/head';
+import Head from 'next/head'
 
 
 const myLoader = ({ src, width, quality }) => {
@@ -310,6 +310,5 @@ export default function Home() {
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
     </body>
     </div>
-    
   )
 }
