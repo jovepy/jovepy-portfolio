@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
 import Head from 'next/head'
+import Link from 'next/link'
 
 
 const myLoader = ({ src, width, quality }) => {
@@ -243,7 +244,10 @@ export default function Home() {
       
       <div className='row'><br></br></div>
       <div className="list-group">
-        <a href="/automacaopy" className="list-group-item list-group-item-action" aria-current="true">
+      <Link href="/automacaopy">
+        <a className="list-group-item list-group-item-action" aria-current="true">
+        
+        
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Automação de Processos Operacionais</h5>
             <small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-globe" viewBox="0 0 16 16">
@@ -253,6 +257,7 @@ export default function Home() {
           <p className="mb-1">Identifique informações e as insira em sistemas automaticamente</p>
           <small>PDFs, imagens, papéis e sites</small>
         </a>
+        </Link>
         <a href="#" className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Sites com foco em celulares</h5>
@@ -293,7 +298,7 @@ export default function Home() {
             <h5 className="mb-1">Chatboot de Whatsapp</h5>
             <small className="text-muted">3 days ago</small>
           </div>
-          <p className="mb-1"><p class="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemprop="description">
+          <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemProp="description">
           whatsapp bot com selenium e python
         </p></p>
         </a>
