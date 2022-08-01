@@ -243,7 +243,7 @@ export default function Home() {
       
       <div className='row'><br></br></div>
       <div className="list-group">
-        <a href="#" className="list-group-item list-group-item-action" aria-current="true">
+        <a href="/automacaopy" className="list-group-item list-group-item-action" aria-current="true">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Automação de Processos Operacionais</h5>
             <small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-globe" viewBox="0 0 16 16">
