@@ -56,52 +56,83 @@ export default function Home() {
                     </a>
                     <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                       <div className="modal-dialog">
-                        <div className="modal-content">
+                        <div className="modal-content d-grid gap-3">
                           <div className="modal-header">
                             <h5 className="modal-title" id="exampleModalLabel">Minhas Habilidades</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           
+                          
                             
                             
                           <div className="modal-body">
-                          <div className='row'>
-                          <div className='d-grid gap-3'>
-                          </div>
-                          <h3 className='fw-light fs-5'>Python</h3>
-                          <div className="progress">
-                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width:"98%"}}></div>
-                          </div>
-                          <h3 className='fw-light fs-5' >Web Developer</h3>
-                          <div className="progress">
-                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:"80%"}}></div>
-                          </div>
-                          <h3 className='fw-light fs-5'>Django</h3>
-                          <div className="progress">
-                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width:"85%"}}></div>
-                          </div>
-                          <h3 className='fw-light fs-5'>Next.js</h3>
-                          <div className="progress">
-                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width:"75%"}}></div>
-                          </div>
-                          <h3 className='fw-light fs-5'>Bootstrap</h3>
-                          <div className="progress">
-                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}></div>
-                          </div>
-                          <h3 className='fw-light fs-5'>Extração de dados</h3>
-                          <div className="progress">
-                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}></div>
-                          </div>
-                          <h3 className='fw-light fs-5'>Estruturação de dados</h3>
-                          <div className="progress">
-                          <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}></div>
-                          </div>
-                          </div>
+                          <div className="d-grid gap-3">
+                            <div>
+                          <h3 className="fw-light fs-5"> Python</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width: "98%"}}> </div>
+                            </div>
+                            </div>
+                            
+                            <div>
+                            <h3 className="fw-light fs-5"> Html, Css, Javascript</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}></div>
+                            </div>
+                            </div>
+                            
+
+                            <div>
+                            <h3 className="fw-light fs-5"> Django</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}></div>
+                            </div>
+                            </div>
+                            
+                            <div>
+                            <h3 className="fw-light fs-5"> Next.JS</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}></div>
+                            </div>
+                            </div>
+
+                            <div>
+                            <h3 className="fw-light fs-5"> Extração de dados</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "95%"}}></div>
+                            </div>
+                            </div>
+
+                            <div>
+                            <h3 className="fw-light fs-5"> Manipulação de dados</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style={{width: "97%"}}></div>
+                            </div>
+                            </div>
+
+                            <div>
+                            <h3 className="fw-light fs-5"> Visualização de dados</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="99%" aria-valuemin="0" aria-valuemax="100" style={{width: "99%"}}></div>
+                            </div>
+                            </div>
+
+                            <div>
+                            <h3 className="fw-light fs-5"> Finanças Quantitativas</h3>
+                          <div className="progress opacity-50">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}></div>
+                            </div>
+                            </div>
+
+                            </div>
+
 
                           
                           <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Save changes</button>
+                          <button  type="button" className='btn btn-outline-primary' data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                          Sobre
+                          </button>  
+                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                           
                           </div>
                         </div>
@@ -123,11 +154,23 @@ export default function Home() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div className="modal-body">
-                            teste
+                            <p>Graduando em Economia pela UFPB (2019 - atualmente), integrante do Labimec, Laboratório de Inteligência Artificial de Macroeconomia Computacional da UFPB (2019 - atualmente), desenvolvedor Python (2019 - atualmente). </p>
+
+                            <h5>2019</h5>
+                            <p>Criação de scripts em notbooks, jupyter e google colab,  sob a linguagem python, buscando analisar e visualizar dados decorrentes de webscraping.</p>
+                            <h5>2020</h5>
+                            <p>Geração de indicadores sobre os hospitalizados por covid-19 na Paraíba (PB), buscando a previsão de cenários de alta e baixa, criação de dashboards de utilidade pública e boletins de suporte aos gestores de municípios da PB.</p>
+                            <h5>2021</h5>
+                            <p>Criação de scripts relacionados à finanças e economia, análise de dados sob I.A, tomada de decisão sob I.A, criação de dashboards, automação de tarefas, além da geração de indicadores sobre hospitalizados por covid-19 na PB.</p>
+                            <h5>2022</h5>
+                            <p>Criação de scripts relacionados à extração de dados (PDFs, Imagens e WEB), gerenciamento automático, integração de dados externos, otimização de processos complexos, desenvolvimento WEB e ferramentas de utilidade ao público</p>
+
                           </div>
                           <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Save changes</button>
+                          <button type="button" className='btn btn-outline-primary' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Habilidades
+                    </button>
+                    <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
@@ -148,11 +191,11 @@ export default function Home() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div className="modal-body">
-                            ...
+                            Tenha acesso ao meu Notion para aprender programação e economia de forma simples e prática.
                           </div>
                           <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Save changes</button>
+                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')}>Ver Notion</button>
+                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
@@ -175,11 +218,11 @@ export default function Home() {
           <div className="row">
           <div className="card text-center">
             <div className="card-header">
-              Encontre alguns projetos
+              Ideias fazem a diferença, realizá-las mais ainda.
             </div>
             <div className="card-body">
               <h5 className="card-title">O que você vai encontrar aqui?</h5>
-              <p className="card-text">Esse portfólio é dividido em duas seções, serviços e projetos. Na primeira seção você encontrará os serviços profissionais desenvolvidos por mim, já na segunda, projetos abertos à população.</p>
+              <p className="card-text">Esse portfólio é dividido em duas seções, <b>serviços e projetos</b>. Na primeira seção você encontrará os <b>serviços profissionais</b> desenvolvidos por mim, já na segunda, <b>projetos abertos à população</b>.</p>
             </div>
             <div className="card-footer text-muted">
               Jove.py - Portfólio
@@ -227,7 +270,7 @@ export default function Home() {
       <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
       <div className='row'><br></br></div>
       <div className="list-group">
-        <a href="#" className="list-group-item list-group-item-action" aria-current="false">
+        <a href="https://jovepy.github.io/empreenda/" className="list-group-item list-group-item-action" aria-current="false">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Empreenda</h5>
             <small className="text-muted">Updated <relative-time datetime="2022-05-18T22:50:41Z" className="no-wrap" title="18 de mai. de 2022 19:50 BRT">on 18 May</relative-time></small>
@@ -235,9 +278,8 @@ export default function Home() {
           <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemProp="description">
           Microestrutura de serviços úteis a qualquer empreendedor com baixo capital
         </p></p>
-          <small>Atendimento ao cliente, gerencimamento de estoques e precificação</small>
         </a>
-        <a href="#" className="list-group-item list-group-item-action">
+        <a href="https://github.com/jovepy/Opere-com-derivativos" className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Opere com derivativos</h5>
             <small className="text-muted">Updated <relative-time datetime="2022-06-22T00:08:25Z" className="no-wrap" title="21 de jun. de 2022 21:08 BRT">on 21 Jun</relative-time></small>
@@ -245,23 +287,22 @@ export default function Home() {
           <p className="mb-1"><p className="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemProp="description">
           Estruture os dados contidos no BDI e encontre as opções mais baratas em relação ao modelo de Black-Scholes
         </p></p>
-          <small className="text-muted">And some muted small print.</small>
         </a>
-        <a href="#" className="list-group-item list-group-item-action">
+        <a href="https://github.com/jovepy/whatsapp-bot" className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Chatboot de Whatsapp</h5>
             <small className="text-muted">3 days ago</small>
           </div>
-          <p className="mb-1">Some placeholder content in a paragraph.</p>
-          <small className="text-muted">And some muted small print.</small>
+          <p className="mb-1"><p class="col-9 d-inline-block color-fg-muted mb-2 pr-4" itemprop="description">
+          whatsapp bot com selenium e python
+        </p></p>
         </a>
-        <a href="#" className="list-group-item list-group-item-action">
+        <a href="https://github.com/jovepy/Assessor-Digital" className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Assessor Digital de Investimentos</h5>
             <small className="text-muted">3 days ago</small>
           </div>
-          <p className="mb-1">Some placeholder content in a paragraph.</p>
-          <small className="text-muted">And some muted small print.</small>
+          <p className="mb-1"><p dir="auto">Descubra fundos de investimentos com a maior rentabilidade sobre risco</p></p>
         </a>
       </div>
 
