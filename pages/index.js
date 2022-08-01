@@ -18,6 +18,7 @@ export default function Home() {
           <Head>        
           
             <title >Jovepy - Portfólio</title>
+            <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia. Automatize processos, crie uma solução única e agilize o seu negócio."></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
               <meta charset="utf-8"></meta> 
               <meta name="robots" content="index,follow"></meta>
