@@ -30,11 +30,10 @@ export default function Home() {
             />
           </>
             <title >Jovepy - Portfólio</title>
+            <meta charset="utf-8"></meta> 
             <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-              <meta charset="utf-8"></meta> 
-              <meta name="robots" content="index,follow"></meta>
-              <meta name="googlebot" content="index,follow"></meta>
+            <meta name="google-site-verification" content="google-site-verification=bnN_n3HsuP0eIt9oTOemQAfy8CkVllyAxiTAFJqkim8" />
           
           
           </Head>
