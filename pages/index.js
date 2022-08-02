@@ -41,13 +41,50 @@ export default function Home() {
           </Head>
       </div>
       <body>
+
+
       <div className='text-left p-2'>
-      
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
           <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Portfólio</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div className="offcanvas-header">
+        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div className="offcanvas-body">
+        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Link</a>
+          </li>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul className="dropdown-menu">
+              <li><a className="dropdown-item" href="#">Action</a></li>
+              <li><a className="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr className="dropdown-divider"></hr>
+              </li>
+              <li><a className="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form className="d-flex" role="search">
+
+          <button className="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
@@ -57,8 +94,7 @@ export default function Home() {
           <div className="row g-0">
             <div className="col-md-4 text-center">
             <div className='row'><br></br></div>
-            <div className='row'><br></br></div>
-            <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.jpg' alt="Criamos a sua solulçao" width={150} height={150} />  
+            <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.png' alt="Criamos a sua solulçao" width={250} height={250} />  
             </div>
             <div className="col-sm-8">
               <div className="card-body align-middle ">
@@ -223,7 +259,43 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className='row'><br></br></div>
           </div>
+        <h2 className='h4 pb-2 mb-4 border-bottom text-muted'> Artigos </h2> 
+          <div className="card-group">
+  <div className="card">
+  <Image className="img-fluid rounded-3 text-center" type='button' onClick={() => Router.push('https://www.linkedin.com/feed/update/urn:li:ugcPost:6811099679011471360?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3AugcPost%3A6811099679011471360%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29')} loader={myLoader} src='./covid.png' alt="COVID-19" width={115} height={250} />  
+    <div className="card-body">
+      <h5 className="card-title">O que aprendi gerando indicadores sobre a Covid-19 na Paraíba?</h5>
+      <p className="card-text">A primeira coleta de dados sobre a COVID-19 ocorreu em 08 de maio de 2020, desde então continuo com essa coleta e gerando os indicadores que me ensinaram muito sobre essa doença. Escrevo esse artigo com o objetivo de informar e compartilhar esses aprendizados com vocês. Devo ressaltar que os indicadores gerados contemplam somente os hospitalizados e n.º de leitos existentes, portanto, trata-se de um recorte sob essa perspectiva.</p>
+    </div>
+    <div className="card-footer">
+      <small className="text-muted">Publicado em 16 de junho de 2021</small>
+    </div>
+  </div>
+  <div className="card">
+  <Image className="img-fluid rounded-3 text-center" type='button' onClick={() => Router.push('https://www.linkedin.com/feed/update/urn:li:ugcPost:6809256378952142848?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3AugcPost%3A6809256378952142848%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29')} loader={myLoader} src='./markowitz.jfif' alt="Python para investimentos" width={115} height={250} />  
+    <div className="card-body">
+      <h5 className="card-title">Investir em FI's ou comprar as próprias ações?</h5>
+      <p className="card-text">Quando me preparei para a CPA-20, estudei sobre Fundos de Investimentos e ali vi enorme vantagem, pois o investidor sempre estaria comprando um ativo totalmente diversificado sob um preço reduzido, com maior liquidez e comodidade. Porém, muitos influenciadores digitais e "educadores" financeiros indicam a compra direta de ações. Isso me fez questionar uma questão, devo comprar ações diretamente ou investir via Fis? Nesse artigo irei calcular a fronteira de Markowitz de uma carteira composta por Fundos de Investimentos em Ações - FAC's e compará-la com a carteira do artigo passado, que foi recomendada pela Nova Futura.</p>
+    </div>
+    <div className="card-footer">
+      <small className="text-muted">Publicado em 11 de junho de 2021 </small>
+    </div>
+  </div>
+  <div className="card">
+  
+  <Image className="img-fluid rounded-3 text-center" type='button' onClick={() => Router.push('https://www.linkedin.com/feed/update/urn:li:ugcPost:6836049232256921600?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3AugcPost%3A6836049232256921600%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29')} loader={myLoader} src='./informar.png' alt="Storytelling" width={115} height={250} />  
+    <div className="card-body">
+      <h5 className="card-title">Expor dados não é informar. Como o Storytelling influencia a informação?</h5>
+      <p className="card-text">Expor os dados não é a mesma coisa que informar. Quando simplesmente há exposição dos dados, apenas se joga os números à tela, enquanto que ao informar, desperta-se no leitor o desejo de submergir nos dados. Transforma-se, portanto, numa experiência gratificante, que enriquece o leitor e o motiva a buscar mais informação.</p>
+    </div>
+    <div className="card-footer">
+      <small className="text-muted">Publicado em 24 de agosto de 2021</small>
+    </div>
+  </div>
+</div>
+<div className='row'><br></br></div>
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
         
@@ -272,7 +344,8 @@ export default function Home() {
           <small>PDFs, imagens, papéis e sites</small>
         </a>
         </Link>
-        <a href="#" className="list-group-item list-group-item-action">
+        <Link href='automacaopy'>
+        <a className="list-group-item list-group-item-action">
           <div className="d-flex w-100 justify-content-between">
             <h5 className="mb-1">Sites com foco em celulares</h5>
             <small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-globe" viewBox="0 0 16 16">
@@ -282,9 +355,23 @@ export default function Home() {
           <p className="mb-1">Tenha um site focado em mobile e alcance mais pessoas</p>
           <small className="text-muted">sites com layout específicos para mobile</small>
         </a>
+        </Link>
+        <Link href="/automacaopy">
+        <a className="list-group-item list-group-item-action" aria-current="true">        
+          <div className="d-flex w-100 justify-content-between">
+            <h5 className="mb-1">Análise de dados</h5>
+            <small><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-globe" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+            </svg></small>
+          </div>
+          <p className="mb-1">Criação de Dashboards que dão suporte a tomada de</p>
+          <small>Gere indicadores e tome decisões acertivas</small>
+        </a>
+        </Link>
       </div>
+      
 
-
+                  
       </div>
       <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
       <div className='row'><br></br></div>
@@ -402,7 +489,9 @@ export default function Home() {
         </div>
       </div>     
       </div>
+      
       </footer>
+      
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
     </body>
