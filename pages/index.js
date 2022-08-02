@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Router from 'next/router';
 import Head from 'next/head'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo';
 
 
 const myLoader = ({ src, width, quality }) => {
@@ -17,8 +18,14 @@ export default function Home() {
       <div>
           <Head>        
           
+          <>
+            <NextSeo
+              title="Jovepy - Portfólio"
+              description="Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."
+            />
+          </>
             <title >Jovepy - Portfólio</title>
-            <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia. Automatize processos, crie uma solução única e agilize o seu negócio."></meta>
+            <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
               <meta charset="utf-8"></meta> 
               <meta name="robots" content="index,follow"></meta>
