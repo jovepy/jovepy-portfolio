@@ -22,6 +22,11 @@ export default function Home() {
             <NextSeo
               title="Jovepy - Portfólio"
               description="Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."
+              canonical="https://www.jovepy.com.br/"
+              openGraph={{
+                type: 'website',
+                url: 'https://www.jovepy.com.br/',
+                site_name: 'jovepy',}}
             />
           </>
             <title >Jovepy - Portfólio</title>
