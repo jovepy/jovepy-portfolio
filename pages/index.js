@@ -34,6 +34,8 @@ export default function Home() {
             <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="google-site-verification" content="google-site-verification=bnN_n3HsuP0eIt9oTOemQAfy8CkVllyAxiTAFJqkim8" />
+            <meta name="google-site-verification" content="google-site-verification=Gpy2hbxpjPq-doXi6-bIzFx75DxoGmNr-ADI1lMUwWk" />
+            
           
           
           </Head>
