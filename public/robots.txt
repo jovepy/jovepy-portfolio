@@ -1,0 +1,6 @@
+Sitemap: https://www.jovepy.com.br/api/sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
