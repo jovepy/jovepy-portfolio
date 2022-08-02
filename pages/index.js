@@ -52,7 +52,7 @@ export default function Home() {
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -276,8 +276,8 @@ export default function Home() {
   <div className="card">
   <Image className="img-fluid rounded-3 text-center" type='button' onClick={() => Router.push('https://www.linkedin.com/feed/update/urn:li:ugcPost:6809256378952142848?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3AugcPost%3A6809256378952142848%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29')} loader={myLoader} src='./markowitz.jfif' alt="Python para investimentos" width={115} height={250} />  
     <div className="card-body">
-      <h5 className="card-title">Investir em FI's ou comprar as próprias ações?</h5>
-      <p className="card-text">Quando me preparei para a CPA-20, estudei sobre Fundos de Investimentos e ali vi enorme vantagem, pois o investidor sempre estaria comprando um ativo totalmente diversificado sob um preço reduzido, com maior liquidez e comodidade. Porém, muitos influenciadores digitais e "educadores" financeiros indicam a compra direta de ações. Isso me fez questionar uma questão, devo comprar ações diretamente ou investir via Fis? Nesse artigo irei calcular a fronteira de Markowitz de uma carteira composta por Fundos de Investimentos em Ações - FAC's e compará-la com a carteira do artigo passado, que foi recomendada pela Nova Futura.</p>
+      <h5 className="card-title">Investir em FIs ou comprar as próprias ações?</h5>
+      <p className="card-text">Quando me preparei para a CPA-20, estudei sobre Fundos de Investimentos e ali vi enorme vantagem, pois o investidor sempre estaria comprando um ativo totalmente diversificado sob um preço reduzido, com maior liquidez e comodidade. Porém, muitos influenciadores digitais e "educadores" financeiros indicam a compra direta de ações. Isso me fez questionar uma questão, devo comprar ações diretamente ou investir via Fis? Nesse artigo irei calcular a fronteira de Markowitz de uma carteira composta por Fundos de Investimentos em Ações - FACs e compará-la com a carteira do artigo passado, que foi recomendada pela Nova Futura.</p>
     </div>
     <div className="card-footer">
       <small className="text-muted">Publicado em 11 de junho de 2021 </small>
