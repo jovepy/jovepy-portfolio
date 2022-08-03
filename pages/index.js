@@ -12,9 +12,12 @@ const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
 }
 
+
+
 export default function Home() {
   return (
     <div>
+      
       <div>
           <Head>        
           
@@ -31,7 +34,8 @@ export default function Home() {
           </>
             <title >Jovepy - Portfólio</title>
             <meta charset="utf-8"></meta> 
-            <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."></meta>
+            <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia.
+            Skills: Python | Django | Next.Js | Full-Stack | Business Intelligence | POP Automation"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <meta name="google-site-verification" content="google-site-verification=bnN_n3HsuP0eIt9oTOemQAfy8CkVllyAxiTAFJqkim8" />
             <meta name="google-site-verification" content="google-site-verification=Gpy2hbxpjPq-doXi6-bIzFx75DxoGmNr-ADI1lMUwWk" />
@@ -40,8 +44,8 @@ export default function Home() {
           
           </Head>
       </div>
-      <body>
 
+      <body>
 
       <div className='text-left p-2'>
       <nav>
@@ -61,27 +65,39 @@ export default function Home() {
       <div className="offcanvas-body text-center">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="#">Home</a>
+            <a className="nav-link" aria-current="page" href="#">Início</a>
           </li>
           <li className="nav-group-item">
+            <h5 className='h4 pb-2 mb-0 border-bottom text-muted'>Serviços Profissionais</h5>
+            <div className='list-group'>
             <a className="nav-link" href="#">Automação de Processos</a>
             <a className="nav-link" href="#">Site com foco em celulares</a>
             <a className="nav-link" href="#">Análise de dados</a>
-          </li>
-          <li className="nav-item dropdown text-center">
-          <a className="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projetos públicos
-          </a>
-          <ul className="dropdown-menu text-center">
-            <li><a className="dropdown-item" href="#">Empreenda</a></li>
-            <li><a className="dropdown-item" href="#">Opere com derivativos</a></li>
-            <li><a className="dropdown-item" href="#">Assessor digital</a></li>
-            <li><a className="dropdown-item" href="#">Whatsapp Bot</a></li>
+            </div>
+          
+          <div className='row'><br></br></div>
+          <h5 className='h4 pb-2 mb-0 border-bottom text-muted'>Projetos Públicos</h5>
+                <div className='list-group'>
+        
+            <a className="nav-link" href="#">Empreenda</a>
+            
+            <a className="nav-link" href="#">Opere com derivativos</a>
+            <a className="nav-link" href="#">Assessor Digital</a>
+            
+            <a className="nav-link" href="#">Whatsapp Bot</a>
+            </div>
+            </li>
           </ul>
-        </li>
-        </ul>
-      </div>
+        
+        
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>  
+        <div className='row'><br></br></div>
+        <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+      </div>  
     </div>
+    
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
@@ -262,7 +278,7 @@ export default function Home() {
           <div className='row'><br></br></div>
           </div>
         <h2 className='h4 pb-2 mb-4 border-bottom text-muted'> Artigos </h2> 
-          <div className="card-group">
+          <div className="card-group rounded-3">
   <div className="card">
   <Image className="img-fluid rounded-3 text-center" type='button' onClick={() => Router.push('https://www.linkedin.com/feed/update/urn:li:ugcPost:6811099679011471360?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3AugcPost%3A6811099679011471360%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29')} loader={myLoader} src='./covid.png' alt="COVID-19" width={115} height={250} />  
     <div className="card-body">
@@ -458,10 +474,12 @@ export default function Home() {
 
 
       <footer className='text-center'>
+        
       <style jsx>{`
                         svg {
                           color: white;
                         } 
+                        
                       `}</style>
       <div className="card bg-primary">
         <div className="card-body">
