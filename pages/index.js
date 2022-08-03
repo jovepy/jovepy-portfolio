@@ -23,8 +23,9 @@ export default function Home() {
           
           <>
             <NextSeo
-              title="Jovepy - Portfólio"
-              description="Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."
+              title="Jovepy - Rodrigo Jove - Portfólio"
+              description="Jove.py - Rodrigo Jove - Desenvolvedor Python e Graduando em Economia.
+              Skills: Python | Django | Next.Js | Full-Stack | Business Intelligence | POP Automation"
               canonical="https://www.jovepy.com.br/"
               openGraph={{
                 type: 'website',
