@@ -49,7 +49,7 @@ export default function Home() {
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
           <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Portfólio</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
-          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-filter-right" viewBox="0 0 16 16" style={{color:"#0D6EFD"}}>
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" className="bi bi-filter-right" viewBox="0 0 16 16" style={{color:"#0D6EFD"}}>
   <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"/>
 </svg>
     </button>
@@ -68,15 +68,15 @@ export default function Home() {
             <a className="nav-link" href="#">Site com foco em celulares</a>
             <a className="nav-link" href="#">Análise de dados</a>
           </li>
-          <li class="nav-item dropdown text-center">
-          <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li className="nav-item dropdown text-center">
+          <a className="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Projetos públicos
           </a>
-          <ul class="dropdown-menu text-center">
-            <li><a class="dropdown-item" href="#">Empreenda</a></li>
-            <li><a class="dropdown-item" href="#">Opere com derivativos</a></li>
-            <li><a class="dropdown-item" href="#">Assessor digital</a></li>
-            <li><a class="dropdown-item" href="#">Whatsapp Bot</a></li>
+          <ul className="dropdown-menu text-center">
+            <li><a className="dropdown-item" href="#">Empreenda</a></li>
+            <li><a className="dropdown-item" href="#">Opere com derivativos</a></li>
+            <li><a className="dropdown-item" href="#">Assessor digital</a></li>
+            <li><a className="dropdown-item" href="#">Whatsapp Bot</a></li>
           </ul>
         </li>
         </ul>
