@@ -49,40 +49,37 @@ export default function Home() {
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
           <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Portfólio</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
-          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span className="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-filter-right" viewBox="0 0 16 16" style={{color:"#0D6EFD"}}>
+  <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"/>
+</svg>
     </button>
     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Jove.py</h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div className="offcanvas-body">
+      <div className="offcanvas-body text-center">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
+            <a className="nav-link" aria-current="page" href="#">Home</a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
+          <li className="nav-group-item">
+            <a className="nav-link" href="#">Automação de Processos</a>
+            <a className="nav-link" href="#">Site com foco em celulares</a>
+            <a className="nav-link" href="#">Análise de dados</a>
           </li>
-          <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Action</a></li>
-              <li><a className="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr className="dropdown-divider"></hr>
-              </li>
-              <li><a className="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
+          <li class="nav-item dropdown text-center">
+          <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projetos públicos
+          </a>
+          <ul class="dropdown-menu text-center">
+            <li><a class="dropdown-item" href="#">Empreenda</a></li>
+            <li><a class="dropdown-item" href="#">Opere com derivativos</a></li>
+            <li><a class="dropdown-item" href="#">Assessor digital</a></li>
+            <li><a class="dropdown-item" href="#">Whatsapp Bot</a></li>
+          </ul>
+        </li>
         </ul>
-        <form className="d-flex" role="search">
-
-          <button className="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
         </div>
@@ -98,7 +95,9 @@ export default function Home() {
             </div>
             <div className="col-sm-8">
               <div className="card-body align-middle ">
-                <h5 className="card-title text-start p-4">Rodrigo Jovê</h5>
+                <div className='row'><br></br></div>
+                <div className='row'><br></br></div>
+                <h5 className="card-title text-start fs-1">Rodrigo Jovê</h5>
                 <p className="fw-light card-text text-start align-middle">
                 <ul className="list-group list-group-flush">
                   <li className="list-group list-group-flush">
@@ -258,6 +257,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+
           </div>
           <div className='row'><br></br></div>
           </div>
