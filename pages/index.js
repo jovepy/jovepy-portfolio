@@ -6,6 +6,9 @@ import Router from 'next/router';
 import Head from 'next/head'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo';
+import ReactDOM from 'react-dom';
+
+
 
 
 const myLoader = ({ src, width, quality }) => {
@@ -19,20 +22,18 @@ export default function Home() {
     <div>
       
       <div>
-          <Head>        
-          
-          <>
+          <Head>                  
             <NextSeo
-              title="Jovepy - Portfólio"
-              description="Desenvolvedor Python e Graduando em Economia. Análise de dados | Automações | Finanças Quantitativas."
+              title="Rodrigo Jove - Jovepy - Portfólio"
+              description="Rodrigo Jove - Jovepy - Desenvolvedor Python e Graduando em Economia.
+              Skills: Python | Django | Next.Js | Full-Stack | Business Intelligence | POP Automation"
               canonical="https://www.jovepy.com.br/"
               openGraph={{
                 type: 'website',
                 url: 'https://www.jovepy.com.br/',
                 site_name: 'jovepy',}}
-            />
-          </>
-            <title >Jovepy - Portfólio</title>
+            ></NextSeo>
+            <title >Rodrigo Jove - Jovepy - Portfólio</title>
             <meta charset="utf-8"></meta> 
             <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia.
             Skills: Python | Django | Next.Js | Full-Stack | Business Intelligence | POP Automation"></meta>
@@ -41,15 +42,25 @@ export default function Home() {
             <meta name="google-site-verification" content="google-site-verification=Gpy2hbxpjPq-doXi6-bIzFx75DxoGmNr-ADI1lMUwWk" />
             
           
-          
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            />
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            />
+
           </Head>
       </div>
 
       <body>
-
+      
+      
       <div className='text-left p-2'>
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+          
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
           <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Portfólio</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
