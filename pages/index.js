@@ -42,7 +42,6 @@ export default function Home() {
             <meta name="google-site-verification" content="google-site-verification=Gpy2hbxpjPq-doXi6-bIzFx75DxoGmNr-ADI1lMUwWk" />
             
           
-            <script src="https://cdn.tailwindcss.com"></script>
           </Head>
       </div>
 
@@ -515,6 +514,9 @@ export default function Home() {
       
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     </body>
     </div>
   )
