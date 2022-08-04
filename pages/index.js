@@ -42,7 +42,7 @@ export default function Home() {
             <meta name="google-site-verification" content="google-site-verification=Gpy2hbxpjPq-doXi6-bIzFx75DxoGmNr-ADI1lMUwWk" />
             
           
-          
+            <script src="https://cdn.tailwindcss.com"></script>
           </Head>
       </div>
 
