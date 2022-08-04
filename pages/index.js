@@ -6,6 +6,9 @@ import Router from 'next/router';
 import Head from 'next/head'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo';
+import ReactDOM from 'react-dom';
+
+
 
 
 const myLoader = ({ src, width, quality }) => {
@@ -19,9 +22,7 @@ export default function Home() {
     <div>
       
       <div>
-          <Head>        
-          
-          <>
+          <Head>                  
             <NextSeo
               title="Jovepy - Rodrigo Jove - Portfólio"
               description="Jove.py - Rodrigo Jove - Desenvolvedor Python e Graduando em Economia.
@@ -31,9 +32,8 @@ export default function Home() {
                 type: 'website',
                 url: 'https://www.jovepy.com.br/',
                 site_name: 'jovepy',}}
-            />
-          </>
-            <title >Jovepy - Portfólio</title>
+            ></NextSeo>
+            <title >Rodrigo Jove - Jovepy - Portfólio</title>
             <meta charset="utf-8"></meta> 
             <meta name="description" content="Jovepy - Desenvolvedor Python e Graduando em Economia.
             Skills: Python | Django | Next.Js | Full-Stack | Business Intelligence | POP Automation"></meta>
@@ -47,10 +47,12 @@ export default function Home() {
       </div>
 
       <body>
-
+      
+      
       <div className='text-left p-2'>
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+          
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
           <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Portfólio</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
