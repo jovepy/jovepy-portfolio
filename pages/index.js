@@ -113,10 +113,8 @@ export default function Home() {
             <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.png' alt="Criamos a sua solulçao" width={250} height={250} />  
             </div>
             <div className="col-sm-8">
-              <div className="card-body align-middle ">
-                <div className='row'><br></br></div>
-                <div className='row'><br></br></div>
-                <h5 className="text-3xl font-bold underline">Rodrigo Jovê</h5>
+              <div className="card-body align-middle">
+                <h5 className="text-start fs-1" >Rodrigo Jovê</h5>
                 <p className="fw-light card-text text-start align-middle">
                 <ul className="list-group list-group-flush">
                   <li className="list-group list-group-flush">
