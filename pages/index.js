@@ -115,7 +115,7 @@ export default function Home() {
               <div className="card-body align-middle ">
                 <div className='row'><br></br></div>
                 <div className='row'><br></br></div>
-                <h5 className="card-title text-start fs-1">Rodrigo Jovê</h5>
+                <h5 className="card-title text-start text-3xl font-bold underline">Rodrigo Jovê</h5>
                 <p className="fw-light card-text text-start align-middle">
                 <ul className="list-group list-group-flush">
                   <li className="list-group list-group-flush">
@@ -514,9 +514,6 @@ export default function Home() {
       
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
     </body>
     </div>
   )
