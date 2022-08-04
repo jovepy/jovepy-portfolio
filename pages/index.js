@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'reactjs-popup/dist/index.css';
+import 'tailwindcss/tailwind.css';
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
