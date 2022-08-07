@@ -77,8 +77,8 @@ export default function Home() {
                 <button className="navbar-toggler btn-close" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                   <span className="navbar-toggler-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" className="bi bi-indent" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M3 8a.5.5 0 0 1 .5-.5h6.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H3.5A.5.5 0 0 1 3 8Z"/>
-                    <path fill-rule="evenodd" d="M12.5 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Z"/>
+                    <path fillRule="evenodd" d="M3 8a.5.5 0 0 1 .5-.5h6.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H3.5A.5.5 0 0 1 3 8Z"/>
+                    <path fillRule="evenodd" d="M12.5 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Z"/>
                   </svg>
                   </span>
                 </button>
@@ -152,12 +152,12 @@ export default function Home() {
         <svg className='python' width="200px" height="200px" viewBox="0 0 256 255" version="1.1">
         <defs>
             <linearGradient x1="12.9593594%" y1="12.0393928%" x2="79.6388325%" y2="78.2008538%" id="linearGradient-1">
-                <stop stop-color="#387EB8" offset="0%"></stop>
-                <stop stop-color="#366994" offset="100%"></stop>
+                <stop stopColor="#387EB8" offset="0%"></stop>
+                <stop stopColor="#366994" offset="100%"></stop>
             </linearGradient>
             <linearGradient x1="19.127525%" y1="20.5791813%" x2="90.7415328%" y2="88.4290372%" id="linearGradient-2">
-                <stop stop-color="#FFE052" offset="0%"></stop>
-                <stop stop-color="#FFC331" offset="100%"></stop>
+                <stop stopColor="#FFE052" offset="0%"></stop>
+                <stop stopColor="#FFC331" offset="100%"></stop>
             </linearGradient>
         </defs>
         <g>
