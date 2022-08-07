@@ -1,0 +1,28 @@
+
+  .python {
+    display: block;
+    margin: auto;
+  }
+  
+  .pythonpath {
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-dasharray: 853;
+    animation: 6s draw forwards;
+  }
+  
+  @keyframes draw {
+    0% {
+      fill-opacity: 0;
+      stroke-dashoffset: 853;
+    }
+    70% {
+      fill-opacity: 0;
+      stroke: #000;
+    }
+    100% {
+      fill-opacity: 1;
+      stroke-dashoffset: 0;
+      stroke: none;
+    }
+  }
