@@ -5,13 +5,14 @@ import 'reactjs-popup/dist/index.css';
 import { useEffect } from "react";
 import '../styles/jornal.css'
 import '../styles/python.css'
-import 'animate.css';
-
+import '../node_modules/animate.css/animate.css'
+import '../node_modules/animate.css/animate.min.css'
 
 function MyApp({ Component, pageProps }) {
   
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    require("animate.css/animate.min.css");
     }, []);
 
     
