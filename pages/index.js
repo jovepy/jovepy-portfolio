@@ -49,7 +49,7 @@ export default function Home() {
       <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Serviços
           </a>
-          <ul className="dropdown-menu dropdown-menu shadow p-3 mb-5 bg-body rounded">
+          <ul className="dropdown-menu dropdown-menu shadow p-3 mb-5 bg-body rounded" style={{background:'white'}}>
             <li><button className="nav-link" id="pills-pop-tab" data-bs-toggle="pill" data-bs-target="#pills-pop" type="button" role="tab" aria-controls="pills-pop" aria-selected="false">POP Automation</button></li>
             <li><button className="nav-link" id="pills-scraping-tab" data-bs-toggle="pill" data-bs-target="#pills-scraping" type="button" role="tab" aria-controls="pills-scraping" aria-selected="false">Web Scraping</button></li>
             <li><button className="nav-link" id="pills-mobile-tab" data-bs-toggle="pill" data-bs-target="#pills-mobile" type="button" role="tab" aria-controls="pills-mobile" aria-selected="false">Site Mobile</button></li>
