@@ -60,27 +60,188 @@ export default function Home() {
     </div>
         <a className="navbar-brand " href="#"></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon "></span>
         </button>
-        <div className="offcanvas offcanvas-end" style={{opacity:'90%'}} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
+        <div className="offcanvas offcanvas-end border-0" style={{opacity:'90%'}} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
           <div className="offcanvas-header bg-warning bg-gradient">
-            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Jove.py</h5>
+            <h5 className="offcanvas-title fs-1 fw-bolder" id="offcanvasNavbarLabel" style={{opacity:'80%'}}>Jove.py</h5>
             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div className="offcanvas-body" style={{background:'#3770A0'}}>
-            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul className="navbar-nav justify-content-end flex-grow-2 pe-3">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#" style={{color:'white'}}>Home</a>
+                <a className="nav-link active" aria-current="page" href="#" style={{color:'white'}}><h5 className='text-start fs-2'>Inicio</h5></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{color:'white'}}>Link</a>
+                <a className="nav-link" href="#" style={{color:'white'}}><h5 className='text-start fs-2'>Serviços</h5></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#" style={{color:'white'}}><h5 className='text-start fs-2'>Projetos</h5></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#" style={{color:'white'}}><h5 className='text-start fs-2'>Artigos</h5></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#" style={{color:'white'}}><h5 className='text-start fs-2'>Contato</h5></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    </body>
+    <div>
+    <div className='row'><br></br></div>
+    <div className='row'><br></br></div>
+    <div className='row'><br></br></div>
+    <div className='row'><br></br></div>
+    <div className="card mb-3 shadow-lg bg-light">
+          <div className="row g-0">
+            <div className="col-md-4 text-center p-4">  
+            <div className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
+            <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.png' alt="Criamos a sua solulçao" width={200} height={200} /> 
+            </div>
+            </div>
+            <div className="col-lg-8">
+              <div className="card-body align-middle">
+                <h5 className="text-start fs-1 fw-semibold" >Rodrigo Jovê</h5>
+                  <p className="fw-light card-text text-start align-middle">
+                  <ul className="list-group list-group-flush">
+                      <li className="list-group list-group-flush">
+                        <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        Sobre
+                        </a>
+                        <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                          <div className="modal-dialog">
+                            <div className="modal-content">
+                              <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLabel1">Sobre Rodrigo Jovê</h5>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div className="modal-body">
+                              <p>Graduando em Economia pela UFPB (2019 - atualmente), integrante do Labimec, Laboratório de Inteligência Artificial de Macroeconomia Computacional da UFPB (2019 - atualmente), desenvolvedor Python (2019 - atualmente). </p>
+                              <h5>2019</h5>
+                              <p>Criação de scripts em notbooks, jupyter e google colab,  sob a linguagem python, buscando analisar e visualizar dados decorrentes de webscraping.</p>
+                              <h5>2020</h5>
+                              <p>Geração de indicadores sobre os hospitalizados por covid-19 na Paraíba (PB), buscando a previsão de cenários de alta e baixa, criação de dashboards de utilidade pública e boletins de suporte aos gestores de municípios da PB.</p>
+                              <h5>2021</h5>
+                              <p>Criação de scripts relacionados à finanças e economia, análise de dados sob I.A, tomada de decisão sob I.A, criação de dashboards, automação de tarefas, além da geração de indicadores sobre hospitalizados por covid-19 na PB.</p>
+                              <h5>2022</h5>
+                              <p>Criação de scripts relacionados à extração de dados (PDFs, Imagens e WEB), gerenciamento automático, integração de dados externos, otimização de processos complexos, desenvolvimento WEB e ferramentas de utilidade ao público</p>
+                          </div>
+                          <div className="modal-footer">
+                          <button type="button" className='btn btn-outline-primary' data-bs-toggle="modal" data-bs-target="#exampleModal">Habilidades</button>
+                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="list-group list-group-flush">
+                    <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Habilidades
+                    </a>
+                      <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog">
+                          <div className="modal-content d-grid gap-3">
+                            <div className="modal-header">
+                              <h5 className="modal-title" id="exampleModalLabel">Minhas Habilidades</h5>
+                              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body">
+                              <div className="d-grid gap-3">
+                                <div>
+                                  <h3 className="fw-light fs-5"> Python</h3>
+                                    <div className="progress opacity-50">
+                                      <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width: "98%"}}> </div>
+                                      </div>
+                                    </div>
+                                    <div>
+                                    <h3 className="fw-light fs-5"> Html, Css, Javascript</h3>
+                                      <div className="progress opacity-50">
+                                        <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}></div>
+                                        </div>
+                                      </div>
+                                      <div>
+                                        <h3 className="fw-light fs-5"> Django</h3>
+                                          <div className="progress opacity-50">
+                                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}></div>
+                                            </div>
+                                          </div>
+                                          <div>
+                                            <h3 className="fw-light fs-5"> Next.JS</h3>
+                                              <div className="progress opacity-50">
+                                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}>
+                                                </div>
+                                              </div>
+                                          </div>
+                            <div>
+                            <h3 className="fw-light fs-5"> Extração de dados</h3>
+                              <div className="progress opacity-50">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "95%"}}></div>
+                                </div>
+                              </div>
+                            <div>
+                            <h3 className="fw-light fs-5"> Manipulação de dados</h3>
+                              <div className="progress opacity-50">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style={{width: "97%"}}></div>
+                                </div>
+                              </div>
+                              <div>
+                                <h3 className="fw-light fs-5"> Visualização de dados</h3>
+                                  <div className="progress opacity-50">
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="99%" aria-valuemin="0" aria-valuemax="100" style={{width: "99%"}}></div>
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <h3 className="fw-light fs-5"> Finanças Quantitativas</h3>
+                                    <div className="progress opacity-50">
+                                      <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div className="modal-footer">
+                                    <button  type="button" className='btn btn-outline-primary' data-bs-toggle="modal" data-bs-target="#exampleModal1">Sobre</button>  
+                                    <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>                  
+                        </li>
+                  <li className="list-group list-group-flush">
+                    <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal2">Caderno</a>
+                    <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                      <div className="modal-dialog">
+                        <div className="modal-content">
+                          <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel2">Caderno Público</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div className="modal-body">
+                            Tenha acesso ao meu Notion para aprender programação e economia de forma simples e prática.
+                          </div>
+                          <div className="modal-footer">
+                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')}>Ver Notion</button>
+                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div className="d-grid gap-2 p-2">
+        <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+      </div>
+    
+    
     </div>
+    </div>
+    </div>
+    </div>
+
+    </body>
+  </div>
   )
 }
