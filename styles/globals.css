@@ -4,10 +4,9 @@
 
 
 .content_bg {
-    background-image: url('../public/fundo1.png');
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+    background-image: url('../public/fundo1.svg');
+    position: relative;    
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
