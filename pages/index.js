@@ -244,28 +244,7 @@ export default function Home() {
     
     </div>
     
-    {/*footer padrao*/}
-    <footer className='text-center'>
-      
-      <style jsx>{`
-                        svg {
-                          color: white;
-                        } 
-                        
-                      `}</style>
-      <div className="card" style={{background: "#3770A0"}}>
-        <div className="card-body">
-        <div className='grid grid-cols-1 gap-1 place-items-center h-32'>
-        <div className='row'><br></br></div>
-              <div className="container text-center">
-              inserir footer 
-                    
-        </div>
-      </div>     
-      </div>
-      </div>
-      </footer>
-      
+    {/*footer padrao*/}      
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
 
