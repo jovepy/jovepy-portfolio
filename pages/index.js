@@ -36,7 +36,7 @@ export default function Home() {
           <meta charset="utf-8"/> 
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </Head>      
-    <body >
+    <body>
     <nav className="navbar fixed-top bg-light">
       <div className="container-fluid">
       <div className='text-center'>
