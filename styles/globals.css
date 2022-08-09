@@ -2,5 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.fundo {
+    background-image: '../public/background.png';
+}
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700")
+
+
