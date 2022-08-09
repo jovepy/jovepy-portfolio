@@ -38,7 +38,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </Head>      
     
-    <nav className="navbar fixed-top bg-light">
+    <nav className="navbar fixed-top bg-white">
       <div className="container-fluid">
       <div className='text-center'>
         <svg className='python' width="50px" height="50px" viewBox="0 0 256 255" version="1.1" style={{opacity:'100%'}}>
