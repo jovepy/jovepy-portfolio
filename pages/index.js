@@ -18,7 +18,8 @@ const myLoader = ({ src, width, quality }) => {
 
 export default function Home() {
   return (
-    <div className='container-fluid' >
+    <div className='content_bg'>
+      <div className='container-fluid'>
       <Head>     
                      
         <NextSeo
@@ -36,8 +37,8 @@ export default function Home() {
           <meta charset="utf-8"/> 
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </Head>      
-    <body>
-    <nav className="navbar fixed-top bg-light">
+    
+    <nav className="navbar fixed-top bg-white">
       <div className="container-fluid">
       <div className='text-center'>
         <svg className='python' width="50px" height="50px" viewBox="0 0 256 255" version="1.1" style={{opacity:'100%'}}>
@@ -93,8 +94,8 @@ export default function Home() {
     <div className='row'><br></br></div>
     <div className='row'><br></br></div>
     <div className='row'><br></br></div>
-    <div className='row'><br></br></div>
-    <div className="card mb-3 shadow-lg bg-light">
+    <div className='row'><br></br></div>    
+    <div className="card mb-3 shadow-lg bg-light p-4 ">
           <div className="row g-0">
             <div className="col-md-4 text-center p-4">  
             <div className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
@@ -129,8 +130,8 @@ export default function Home() {
                               <p>Criação de scripts relacionados à extração de dados (PDFs, Imagens e WEB), gerenciamento automático, integração de dados externos, otimização de processos complexos, desenvolvimento WEB e ferramentas de utilidade ao público</p>
                           </div>
                           <div className="modal-footer">
-                          <button type="button" className='btn btn-outline-primary' data-bs-toggle="modal" data-bs-target="#exampleModal">Habilidades</button>
-                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                          <button type="button" className='btn btn-outline-warning' data-bs-toggle="modal" data-bs-target="#exampleModal">Habilidades</button>
+                          <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
@@ -200,8 +201,8 @@ export default function Home() {
                                     </div>
                                   </div>
                                   <div className="modal-footer">
-                                    <button  type="button" className='btn btn-outline-primary' data-bs-toggle="modal" data-bs-target="#exampleModal1">Sobre</button>  
-                                    <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                                    <button  type="button" className='btn btn-outline-warning' data-bs-toggle="modal" data-bs-target="#exampleModal1">Sobre</button>  
+                                    <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                                   </div>
                                 </div>
                               </div>
@@ -221,8 +222,8 @@ export default function Home() {
                             Tenha acesso ao meu Notion para aprender programação e economia de forma simples e prática.
                           </div>
                           <div className="modal-footer">
-                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')}>Ver Notion</button>
-                          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                          <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')}>Ver Notion</button>
+                          <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
@@ -238,10 +239,16 @@ export default function Home() {
     
     </div>
     </div>
+    
     </div>
+    
     </div>
+    
+    {/*footer padrao*/}      
+    </div>
+    <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
 
-    </body>
-  </div>
+    </div>
+  
   )
 }

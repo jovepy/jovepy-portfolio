@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.fundo {
-    background-image: '../public/background.png';
+
+.content_bg {
+    background-image: url('../public/fundo2.svg');
+    position: relative;    
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700")
