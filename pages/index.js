@@ -147,10 +147,11 @@ export default function Home() {
                               <p>Criação de scripts relacionados à finanças e economia, análise de dados sob I.A, tomada de decisão sob I.A, criação de dashboards, automação de tarefas, além da geração de indicadores sobre hospitalizados por covid-19 na PB.</p>
                               <h5>2022</h5>
                               <p>Criação de scripts relacionados à extração de dados (PDFs, Imagens e WEB), gerenciamento automático, integração de dados externos, otimização de processos complexos, desenvolvimento WEB e ferramentas de utilidade ao público</p>
-                          </div>
-                          <div className="modal-footer">
-                          <button type="button" className='btn btn-outline-warning' data-bs-toggle="modal" data-bs-target="#exampleModal">Habilidades</button>
-                          <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                            </div>
+                            <div className='border-top'></div>
+                            <div className="text-center d-grid gap-2 m-4">
+                          <button type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal" style={{color:'white',background:'#3770A0'}}>Habilidades</button>
+                          <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
@@ -162,67 +163,76 @@ export default function Home() {
                     </a>
                       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
-                          <div className="modal-content d-grid gap-3">
+                          <div className="modal-content d-grid p-0">
                             <div className="modal-header">
                               <h5 className="modal-title" id="exampleModalLabel">Minhas Habilidades</h5>
                               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div className="modal-body">
-                              <div className="d-grid gap-3">
+                              <div className="d-grid gap-1">
                                 <div>
-                                  <h3 className="fw-light fs-5"> Python</h3>
+                                  <h3 className="fw-light fs-5 mb-0"> Python</h3>
+                                  <p className='mb-0 fw-light fs-6'>Extração de dados de documentos e imagens, estruturação e limpeza de dados, automação de POP, criação de dashboards, sistemas web.</p>
                                     <div className="progress opacity-50">
-                                      <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width: "98%"}}> </div>
+                                      <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width: "98%"}}> </div>
                                       </div>
                                     </div>
                                     <div>
-                                    <h3 className="fw-light fs-5"> Html, Css, Javascript</h3>
+                                    <h3 className="fw-light fs-5 mb-0"> Html, Css, Javascript</h3>
+                                    <p className='fw-light fs-6 mb-0'>Manuseio de interfaces com Bootstrap e Tailwind, webscraping com Selenium.</p>
                                       <div className="progress opacity-50">
-                                        <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}></div>
+                                        <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}></div>
                                         </div>
                                       </div>
                                       <div>
-                                        <h3 className="fw-light fs-5"> Django</h3>
+                                        <h3 className="fw-light fs-5 mb-0"> Django</h3>
+                                        <p className="fw-light fs-6 mb-0"> Criação de sistemas WEB complexos, com scripts lógicos e interativos.</p>
                                           <div className="progress opacity-50">
-                                            <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}></div>
+                                            <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}></div>
                                             </div>
                                           </div>
                                           <div>
-                                            <h3 className="fw-light fs-5"> Next.JS</h3>
+                                            <h3 className="fw-light fs-5 mb-0"> Next.JS</h3>
+                                            <p className="fw-light fs-6 mb-0"> Criação de sites especializados em layout mobile.</p>
                                               <div className="progress opacity-50">
-                                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}>
+                                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}>
                                                 </div>
                                               </div>
                                           </div>
                             <div>
-                            <h3 className="fw-light fs-5"> Extração de dados</h3>
+                            <h3 className="fw-light fs-6">Extração de dados</h3>
+                            <p className="fw-light fs-6 mb-0">Extração, limpeza, estruturação e manutenção de dados através de extrações automatizadas de fontes e formatos diversos - WEB, PDF, Imagens.</p>
                               <div className="progress opacity-50">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "95%"}}></div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "95%"}}></div>
                                 </div>
                               </div>
                             <div>
-                            <h3 className="fw-light fs-5"> Manipulação de dados</h3>
+                            <h3 className="fw-light fs-5 mb-0"> Manipulação de dados</h3>
+                            <p className="fw-light fs-6 mb-0"> Criação de indicadores para tomada de decisão, business inteligence, teste de hipóteses e estátistica.</p>
                               <div className="progress opacity-50">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style={{width: "97%"}}></div>
+                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style={{width: "97%"}}></div>
                                 </div>
                               </div>
                               <div>
-                                <h3 className="fw-light fs-5"> Visualização de dados</h3>
+                                <h3 className="fw-light fs-5 mb-0"> Visualização de dados</h3>
+                                <p className="fw-light fs-6 mb-0">Criação de dashboards para visualização de indicadores, business inteligence e sistemas de gerenciamento web.</p>
                                   <div className="progress opacity-50">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="99%" aria-valuemin="0" aria-valuemax="100" style={{width: "99%"}}></div>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="99%" aria-valuemin="0" aria-valuemax="100" style={{width: "99%"}}></div>
                                     </div>
                                   </div>
                                   <div>
-                                    <h3 className="fw-light fs-5"> Finanças Quantitativas</h3>
+                                    <h3 className="fw-light fs-5 mb-0">Finanças Quantitativas</h3>
+                                    <p className="fw-light fs-6 mb-0">Extração de dados diretos da CVM - Comissão de Valores Mobiliários, órgão regulador do Mercado de Capitais Brasileiro - simulação de Monte Carlo, VaR, Índice Sharpe, Treynor, Coeficiente Beta, CAPM, Markowitz, Backtesting, Matemática Financeira.</p>
                                     <div className="progress opacity-50">
-                                      <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}></div>
+                                      <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}></div>
                                       </div>
                                     </div>
                                   </div>
-                                  <div className="modal-footer">
-                                    <button  type="button" className='btn btn-outline-warning' data-bs-toggle="modal" data-bs-target="#exampleModal1">Sobre</button>  
-                                    <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
                                   </div>
+                                  <div className='border-top'></div>
+                                  <div className="text-center d-grid gap-2 m-4">
+                                    <button  type="button" className='btn btn-outline-warning' data-bs-toggle="modal" data-bs-target="#exampleModal1" style={{color:'white',background:'#3770A0'}}>Sobre</button>  
+                                    <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                                 </div>
                               </div>
                             </div>
@@ -241,8 +251,8 @@ export default function Home() {
                             Tenha acesso ao meu Notion para aprender programação e economia de forma simples e prática.
                           </div>
                           <div className="modal-footer">
-                          <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')}>Ver Notion</button>
-                          <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+                          <button className="btn" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')} style={{color:'white',background:'#3770A0'}}>Ver Notion</button>
+                          <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
