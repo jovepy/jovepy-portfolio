@@ -11,6 +11,15 @@
     background-repeat: no-repeat;
 }
 
+.content_bg_bar {
+    background-image: url('../public/barra amarela.svg');
+    position: relative;    
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700")
 
 
