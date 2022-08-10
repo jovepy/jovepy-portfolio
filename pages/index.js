@@ -104,7 +104,7 @@ export default function Home() {
           <div className="row g-0">
             <div className="col-md-4 text-center p-4">  
             <div className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
-            <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.svg' alt="Criamos a sua solulçao" width={200} height={200} /> 
+            <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.png' alt="Criamos a sua solulçao" width={200} height={200} /> 
             </div>
             </div>
             <div className="col-lg-8">
