@@ -43,7 +43,7 @@ export default function Home() {
     <nav className="navbar fixed-top bg-white">
       <div className="container-fluid">
       <div className='text-center'>
-      <Image className="img-fluid text-center" loader={myLoader} src='./python.svg' alt="Criamos a sua solulçao" width={150} height={50} />
+      <Image className="img-fluid text-center" loader={myLoader} src='./python.png' alt="Criamos a sua solulçao" width={150} height={50} />
     </div>
         <a className="navbar-brand" href="#"></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
