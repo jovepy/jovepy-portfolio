@@ -217,7 +217,7 @@ export default function Home() {
                                   <div className='border-top'></div>
                                   <div className="text-center d-grid gap-2 m-4">
                                     <button  type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal1" style={{color:'white',background:'#3770A0'}}>Sobre</button>  
-                                    <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
+                                    <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Gostei do seu site, como faço para ter um?')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                                 </div>
                               </div>
                             </div>
@@ -263,8 +263,12 @@ export default function Home() {
     
     {/*footer padrao*/}      
     </div>
+    <div><br></br></div>
+    <div><br></br></div>
+    <div><br></br></div>
     <p className="card-text text-center"><small style={{'color':'white'}}>Criado por Jove.py</small></p>
-
+    <div><br></br></div>
+    <div><br></br></div>
     </div>
   
   )

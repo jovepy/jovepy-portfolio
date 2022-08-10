@@ -5,9 +5,10 @@
 
 .content_bg {
     background-image: url('../public/fundo2.svg');
-    position: relative;    
-    height: auto;
-    background-size: cover;
+    position: relative;   
+    width: 100vw; 
+    height: 100vh;
+    
     background-repeat: no-repeat;
 }
 
@@ -15,6 +16,7 @@
     background-image: url('../public/barra amarela.svg');
     position: relative;    
     height: auto;
+    width: auto;
     background-size: cover;
     background-repeat: no-repeat;
     
