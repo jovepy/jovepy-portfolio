@@ -19,6 +19,8 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div className='content_bg'>
+      <div><br></br></div>
+      <div><br></br></div>
       <div className='container-fluid'>
       <Head>     
                      
@@ -267,6 +269,7 @@ export default function Home() {
     <div><br></br></div>
     <div><br></br></div>
     <p className="card-text text-center"><small style={{'color':'white'}}>Criado por Jove.py</small></p>
+    <div><br></br></div>
     <div><br></br></div>
     <div><br></br></div>
     </div>

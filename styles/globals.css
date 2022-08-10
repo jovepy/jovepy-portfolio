@@ -6,8 +6,7 @@
 .content_bg {
     background-image: url('../public/fundo2.svg');
     position: relative;   
-    width: 100vw; 
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
