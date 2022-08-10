@@ -138,6 +138,7 @@ export default function Home() {
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div className="modal-body">
+                              <h5>Formação</h5>
                               <p>Graduando em Economia pela UFPB (2019 - atualmente), integrante do Labimec, Laboratório de Inteligência Artificial de Macroeconomia Computacional da UFPB (2019 - atualmente), desenvolvedor Python (2019 - atualmente). </p>
                               <h5>2019</h5>
                               <p>Criação de scripts em notbooks, jupyter e google colab,  sob a linguagem python, buscando analisar e visualizar dados decorrentes de webscraping.</p>
@@ -222,7 +223,7 @@ export default function Home() {
                                   </div>
                                   <div>
                                     <h3 className="fw-light fs-5 mb-0">Finanças Quantitativas</h3>
-                                    <p className="fw-light fs-6 mb-0">Extração de dados diretos da CVM - Comissão de Valores Mobiliários, órgão regulador do Mercado de Capitais Brasileiro - simulação de Monte Carlo, VaR, Índice Sharpe, Treynor, Coeficiente Beta, CAPM, Markowitz, Backtesting, Matemática Financeira.</p>
+                                    <p className="fw-light fs-6 mb-0">Extração de dados diretos da CVM - Comissão de Valores Mobiliários, órgão regulador do Mercado de Capitais Brasileiro - simulação de Monte Carlo, VaR, Índice Sharpe, Treynor, Coeficiente Beta, CAPM, Markowitz, Backtesting, Matemática Financeira, Macroeconomia, Microeconomia, Econometria.</p>
                                     <div className="progress opacity-50">
                                       <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}></div>
                                       </div>
