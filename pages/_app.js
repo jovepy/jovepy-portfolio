@@ -5,6 +5,7 @@ import 'reactjs-popup/dist/index.css';
 import { useEffect } from "react";
 import '../styles/jornal.css'
 import '../styles/python.css'
+import '../styles/barskils.css'
 
 function MyApp({ Component, pageProps }) {
   

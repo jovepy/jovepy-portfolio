@@ -1,0 +1,67 @@
+
+
+.slide-option {
+	margin:0 0 0px 0;
+    width:100vw;
+}
+
+.minicont {
+    transition:all .3s ease;}
+ 
+.highway-barrier {overflow:hidden;position:relative ;} 
+.highway-lane {
+		display:flex;
+		height:70px;
+        width: 100vw;
+}
+.highway-car {
+			flex:1;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			background:white;
+			color:dimgray;
+            width:50%;
+            
+		}
+
+@keyframes translatestf {
+	0% { transform:translateX(100%);  }
+	100% { transform:translateX(-500%);  }
+}
+
+.highway-barrier 
+.highway-lane {
+    
+		width:500%;
+    }
+.highway-car {
+    animation:translatestf 1s linear infinite;
+    
+    
+        }
+		
+
+@keyframes translateinfinite {
+	100% { transform:translateX(calc(-180px * 12));  }
+}
+#infinite 
+.highway-barrier {
+	background:white;
+    width:auto;
+}
+	before,
+	after {
+		content: " ";
+		position:relative;
+		z-index:9;
+		width:50px;			
+	}
+	
+    	.highway-car {
+			width:50px;
+			animation:translateinfinite 120s linear infinite;}
+			.fab {
+				font-size:65px;
+			}
+		
