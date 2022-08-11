@@ -118,10 +118,10 @@ export default function Home() {
 		<div className="highway-barrier">
 			<ul className="highway-lane">
 				<li className="highway-car"><span className='text-center mt-3'>
-        <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar.png' alt="Criamos a sua solulçao" width={750} height={50} />
+        <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar.png' alt="Criamos a sua solulçao" width={1107} height={50} />
         </span></li>
 				<li className="highway-car"><span className='fab fa-gulp'>
-        <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar.png' alt="Criamos a sua solulçao" width={750} height={50} />
+        <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar.png' alt="Criamos a sua solulçao" width={1107} height={50} />
         </span></li>
 			</ul>
       </div>
