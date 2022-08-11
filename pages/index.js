@@ -114,7 +114,7 @@ export default function Home() {
     <div className='row'><br></br></div>
     <div className="highway-barrier">
 	<div className="slide-option">
-	<div id="infinite" class="highway-slider">
+	<div id="infinite" className="highway-slider">
 		<div className="highway-barrier">
 			<ul className="highway-lane">
 				<li className="highway-car"><span className='text-center mt-3'>
