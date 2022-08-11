@@ -119,13 +119,13 @@ export default function Home() {
 			<ul className="highway-lane">
 				<li className="highway-car"><span className='text-center mt-3'>
         <Image className="img-fluid  text-center" loader={myLoader} src='./python.png' alt="Criamos a sua solulçao" width={150} height={50} />
-        <Image className="img-fluid  text-center" loader={myLoader} src='./espaco.png' alt="Criamos a sua solulçao" width={150} height={50} /> 
+        <Image className="img-fluid  text-center" loader={myLoader} src='./espaco.png' alt="Criamos a sua solulçao" width={20} height={20} /> 
         <Image className="img-fluid  text-center" loader={myLoader} src='./next.png' alt="Criamos a sua solulçao" width={150} height={50} />
-        <Image className="img-fluid  text-center" loader={myLoader} src='./espaco.png' alt="Criamos a sua solulçao" width={50} height={50} /> 
+        <Image className="img-fluid  text-center" loader={myLoader} src='./espaco.png' alt="Criamos a sua solulçao" width={20} height={20} /> 
         </span></li>
 				<li className="highway-car"><span className='fab fa-gulp'>
         <Image className="img-fluid  text-center" loader={myLoader} src='./django.png' alt="Criamos a sua solulçao" width={150} height={50} />
-        <Image className="img-fluid  text-center" loader={myLoader} src='./espaco.png' alt="Criamos a sua solulçao" width={150} height={50} /> 
+        <Image className="img-fluid  text-center" loader={myLoader} src='./espaco.png' alt="Criamos a sua solulçao" width={20} height={20} /> 
         <Image className="img-fluid  text-center" loader={myLoader} src='./plotly.png' alt="Criamos a sua solulçao" width={150} height={50} />
         </span></li>
 			</ul>
