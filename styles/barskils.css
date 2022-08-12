@@ -52,7 +52,6 @@
     
         }
 		
-
 @keyframes translateinfinite {
 	100% { transform:translateX(calc(-180px * 12));  }
 }

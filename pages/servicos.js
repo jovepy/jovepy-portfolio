@@ -111,64 +111,21 @@ export default function Home() {
         </div>
       </div>
     </nav>
-    <div className='container-fluid-sm mb-2 mt-4'>  
-    <div className='bannersection' style={{opacity:'70%'}}>
-    <section className="slide-option">
-      <div id="stffull" className="highway-slider">
-        <div className="highway-barrier">
-          <ul className="highway-lane">
-            <li className="highway-car">
-              <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar pb.png' alt="Criamos a sua solulçao" width={1461} height={100} />
-            </li>
-            <li className="highway-car">
-              <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar pb.png' alt="Criamos a sua solulçao" width={1461} height={100} />
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    </div>
-    </div> 
-    <div className="card mb-5 shadow-lg bg-light p-4 ">
-          <div className="row g-0">
-            <div className="col-md-4 text-center p-4">  
-            <div className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
-            <Image className="img-fluid rounded-circle text-center" loader={myLoader} src='./perfil.png' alt="Criamos a sua solulçao" width={200} height={200} /> 
-            </div>
-            </div>
-            <div className="col-8">
-              <div className="card-body align-middle">
-                <h5 className="text-start fs-1 fw-semibold mb-0" >Rodrigo Jovê</h5>
-                  <small className='text-star fs-6 fw-light mb-0 text-muted' >Jove.py</small>
-                  <p className="fw-light card-text text-start align-middle">
-                  
-              </p>
-            </div>
-            
-    </div>
+    <div className='container-fluid-lg mt-4'>
     <ul className="list-group list-group-flush">
                       <li className="list-group list-group-flush">
                         <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        Sobre
+                        Business Inteligence
                         </a>
                         <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                           <div className="modal-dialog">
                             <div className="modal-content">
                               <div className="modal-header">
-                                <h5 className="modal-title" id="exampleModalLabel1">Sobre Rodrigo Jovê</h5>
+                                <h5 className="modal-title" id="exampleModalLabel1">Business Inteligence</h5>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div className="modal-body">
-                              <h5>Formação</h5>
-                              <p>Graduando em Economia pela UFPB (2019 - atualmente), integrante do Labimec, Laboratório de Inteligência Artificial de Macroeconomia Computacional da UFPB (2019 - atualmente), desenvolvedor Python (2019 - atualmente). </p>
-                              <h5>2019</h5>
-                              <p>Criação de scripts em notbooks, jupyter e google colab,  sob a linguagem python, buscando analisar e visualizar dados decorrentes de webscraping.</p>
-                              <h5>2020</h5>
-                              <p>Geração de indicadores sobre os hospitalizados por covid-19 na Paraíba (PB), buscando a previsão de cenários de alta e baixa, criação de dashboards de utilidade pública e boletins de suporte aos gestores de municípios da PB.</p>
-                              <h5>2021</h5>
-                              <p>Criação de scripts relacionados à finanças e economia, análise de dados sob I.A, tomada de decisão sob I.A, criação de dashboards, automação de tarefas, além da geração de indicadores sobre hospitalizados por covid-19 na PB.</p>
-                              <h5>2022</h5>
-                              <p>Criação de scripts relacionados à extração de dados (PDFs, Imagens e WEB), gerenciamento automático, integração de dados externos, otimização de processos complexos, desenvolvimento WEB e ferramentas de utilidade ao público</p>
+                                corpo bi
                             </div>
                             <div className='border-top'></div>
                             <div className="text-center d-grid gap-2 m-4">
@@ -181,113 +138,78 @@ export default function Home() {
                   </li>
                   <li className="list-group list-group-flush">
                     <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Habilidades
+                      Automação de processo operacional
                     </a>
                       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
                           <div className="modal-content d-grid p-0">
                             <div className="modal-header">
-                              <h5 className="modal-title" id="exampleModalLabel">Minhas Habilidades</h5>
+                              <h5 className="modal-title" id="exampleModalLabel">Automação de processo operacional</h5>
                               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div className="modal-body">
-                              <div className="d-grid gap-1">
-                                <div>
-                                  <h3 className="fw-light fs-5 mb-0"> Python</h3>
-                                  <p className='mb-0 fw-light fs-6'>Extração de dados de documentos e imagens, estruturação e limpeza de dados, automação de POP, criação de dashboards, sistemas web.</p>
-                                    <div className="progress opacity-50">
-                                      <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width: "98%"}}> </div>
-                                      </div>
-                                    </div>
-                                    <div>
-                                    <h3 className="fw-light fs-5 mb-0"> Html, Css, Javascript</h3>
-                                    <p className='fw-light fs-6 mb-0'>Manuseio de interfaces com Bootstrap e Tailwind, webscraping com Selenium.</p>
-                                      <div className="progress opacity-50">
-                                        <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}></div>
-                                        </div>
-                                      </div>
-                                      <div>
-                                        <h3 className="fw-light fs-5 mb-0"> Django</h3>
-                                        <p className="fw-light fs-6 mb-0"> Criação de sistemas WEB complexos, com scripts lógicos e interativos.</p>
-                                          <div className="progress opacity-50">
-                                            <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}></div>
-                                            </div>
-                                          </div>
-                                          <div>
-                                            <h3 className="fw-light fs-5 mb-0"> Next.JS</h3>
-                                            <p className="fw-light fs-6 mb-0"> Criação de sites especializados em layout mobile.</p>
-                                              <div className="progress opacity-50">
-                                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%"}}>
-                                                </div>
-                                              </div>
-                                          </div>
-                            <div>
-                            <h3 className="fw-light fs-5">Extração de dados</h3>
-                            <p className="fw-light fs-6 mb-0">Extração, limpeza, estruturação e manutenção de dados através de extrações automatizadas de fontes e formatos diversos - WEB, PDF, Imagens.</p>
-                              <div className="progress opacity-50">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "95%"}}></div>
-                                </div>
-                              </div>
-                            <div>
-                            <h3 className="fw-light fs-5 mb-0"> Manipulação de dados</h3>
-                            <p className="fw-light fs-6 mb-0"> Criação de indicadores para tomada de decisão, business inteligence, teste de hipóteses e estátistica.</p>
-                              <div className="progress opacity-50">
-                                <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style={{width: "97%"}}></div>
-                                </div>
-                              </div>
-                              <div>
-                                <h3 className="fw-light fs-5 mb-0"> Visualização de dados</h3>
-                                <p className="fw-light fs-6 mb-0">Criação de dashboards para visualização de indicadores, business inteligence e sistemas de gerenciamento web.</p>
-                                  <div className="progress opacity-50">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="99%" aria-valuemin="0" aria-valuemax="100" style={{width: "99%"}}></div>
-                                    </div>
-                                  </div>
-                                  <div>
-                                    <h3 className="fw-light fs-5 mb-0">Finanças Quantitativas</h3>
-                                    <p className="fw-light fs-6 mb-0">Extração de dados diretos da CVM - Comissão de Valores Mobiliários, órgão regulador do Mercado de Capitais Brasileiro - simulação de Monte Carlo, VaR, Índice Sharpe, Treynor, Coeficiente Beta, CAPM, Markowitz, Backtesting, Matemática Financeira, Macroeconomia, Microeconomia, Econometria e Deriativos.</p>
-                                    <div className="progress opacity-50">
-                                      <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}></div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  </div>
-                                  <div className='border-top'></div>
-                                  <div className="text-center d-grid gap-2 m-4">
-                                    <button  type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal1" style={{color:'white',background:'#3770A0'}}>Sobre</button>  
-                                    <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Gostei do seu site, como faço para ter um?')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
-                                </div>
-                              </div>
+                              corpo Automação de processo operacional
                             </div>
-                          </div>                  
-                        </li>
+                            <div className='border-top'></div>
+                            <div className="text-center d-grid gap-2 m-4">
+                              <button  type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal1" style={{color:'white',background:'#3770A0'}}>Sobre</button>  
+                              <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Gostei do seu site, como faço para ter um?')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                  
+                  </li>
                   <li className="list-group list-group-flush">
-                    <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal2">Caderno</a>
-                    <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-                      <div className="modal-dialog">
-                        <div className="modal-content">
-                          <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel2">Caderno Público</h5>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div className="modal-body">
-                            Tenha acesso ao meu Notion para aprender programação e economia de forma simples e prática.
-                          </div>
-                          <div className='border-top'></div>
-                          <div className="text-center d-grid gap-2 m-4">
-                          <button className="btn" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')} style={{color:'white',background:'#3770A0'}}>Ver Notion</button>
+                        <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        Análise quantitativa de investimentos
+                        </a>
+                        <div className="modal fade" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                          <div className="modal-dialog">
+                            <div className="modal-content">
+                              <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLabel3">Análise quantitativa de investimentos</h5>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div className="modal-body">
+                                corpo Análise quantitativa de investimentos
+                            </div>
+                            <div className='border-top'></div>
+                            <div className="text-center d-grid gap-2 m-4">
+                          <button type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal" style={{color:'white',background:'#3770A0'}}>Habilidades</button>
                           <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
                     </div>
                   </li>
+                  <li className="list-group list-group-flush">
+                        <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        Sites com design focado em celulares
+                        </a>
+                        <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                          <div className="modal-dialog">
+                            <div className="modal-content">
+                              <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLabel2">Sites com design focado em celulares</h5>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div className="modal-body">
+                                corpo Sites com design focado em celulares
+                            </div>
+                            <div className='border-top'></div>
+                            <div className="text-center d-grid gap-2 m-4">
+                          <button type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal" style={{color:'white',background:'#3770A0'}}>Habilidades</button>
+                          <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+              
                 </ul>
     </div>
-    <div className="d-grid gap-2 p-2">
-        <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
-      </div>
     </div>
-    </div>
+
     {/*footer padrao*/}          
     <div><br></br></div>
     <div><br></br></div>
