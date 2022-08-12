@@ -111,25 +111,25 @@ export default function Home() {
         </div>
       </div>
     </nav>
-    <div className='row'><br></br></div>
-    <div className="highway-barrier">
-	<div className="slide-option">
-	<div id="infinite" className="highway-slider">
-		<div className="highway-barrier">
-			<ul className="highway-lane">
-				<li className="highway-car"><span className='text-center mt-3'>
-        <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar.png' alt="Criamos a sua solulçao" width={1107} height={50} />
-        </span></li>
-				<li className="highway-car"><span className='fab fa-gulp'>
-        <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar.png' alt="Criamos a sua solulçao" width={1107} height={50} />
-        </span></li>
-			</ul>
+    <div className='row mb-4'><br></br></div>    
+    <div className='bannersection' style={{opacity:'70%'}}>
+    <section className="slide-option">
+      <div id="stffull" className="highway-slider">
+        <div className="highway-barrier">
+          <ul className="highway-lane">
+            <li className="highway-car">
+              <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar pb.png' alt="Criamos a sua solulçao" width={1461} height={100} />
+            </li>
+            <li className="highway-car">
+              <Image className="img-fluid  text-center" loader={myLoader} src='./banner bar pb.png' alt="Criamos a sua solulçao" width={1461} height={100} />
+            </li>
+          </ul>
+        </div>
       </div>
-		</div>
-	</div>
-</div>
-    <div className='p-2'>
-    <div className="card mb-3 shadow-lg bg-light p-4 ">
+    </section>
+    </div>
+    <div className='p-1 mb-5'>
+    <div className="card mb-5 shadow-lg bg-light p-4 ">
           <div className="row g-0">
             <div className="col-md-4 text-center p-4">  
             <div className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
@@ -141,7 +141,12 @@ export default function Home() {
                 <h5 className="text-start fs-1 fw-semibold mb-0" >Rodrigo Jovê</h5>
                   <small className='text-star fs-6 fw-light mb-0 text-muted' >Jove.py</small>
                   <p className="fw-light card-text text-start align-middle">
-                  <ul className="list-group list-group-flush">
+                  
+              </p>
+            </div>
+            
+    </div>
+    <ul className="list-group list-group-flush">
                       <li className="list-group list-group-flush">
                         <a type="button" className='list-group-item fs-4 bg-light' data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         Sobre
@@ -267,21 +272,16 @@ export default function Home() {
                           <div className="modal-body">
                             Tenha acesso ao meu Notion para aprender programação e economia de forma simples e prática.
                           </div>
-                          <div className="modal-footer">
                           <div className='border-top'></div>
                           <div className="text-center d-grid gap-2 m-4">
                           <button className="btn" type="button" onClick={() => Router.push('https://tender-silica-d85.notion.site/Jove-py-a23ca3b771e345649f73c965803197d5')} style={{color:'white',background:'#3770A0'}}>Ver Notion</button>
                           <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
-                          </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </li>
                 </ul>
-              </p>
-            </div>
-    </div>
     </div>
     <div className="d-grid gap-2 p-2">
         <button className="btn btn-outline-warning" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
@@ -292,9 +292,7 @@ export default function Home() {
     {/*footer padrao*/}          
     <div><br></br></div>
     <div><br></br></div>
-    
     <p className="card-text text-center p-5" ><small style={{color:'white'}}>Criado por Jove.py</small></p>
-    
     </div>
   
   )

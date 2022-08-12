@@ -1,8 +1,21 @@
+.bannerbody {
+	display:flex;
+	flex-flow:column;
+	background:#eaeaea;
+	height:100vh;
+	width:100vw;
+}
+
+.bannersection {
+	display:flex;
+	flex-flow:column;
+	}
 
 
 .slide-option {
 	margin:0 0 0px 0;
     width:100vw;
+	height: 100px;
 }
 
 .minicont {
@@ -11,14 +24,12 @@
 .highway-barrier {overflow:hidden;position:relative ;} 
 .highway-lane {
 		display:flex;
-		height:70px;
+		height:auto;
         width: 50vw;
 }
 .highway-car {
 			flex:1;
 			display:flex;
-			justify-content:center;
-			align-items:center;
 			background:white;
 			color:dimgray;
             width:50%;
@@ -36,7 +47,7 @@
 		width:500%;
     }
 .highway-car {
-    animation:translatestf 1s linear infinite;
+    animation:translatestf 200s linear infinite;
     
     
         }
@@ -55,13 +66,14 @@
 		content: " ";
 		position:relative;
 		z-index:9;
-		width:50px;			
-	}
-	
+		width:20px;			
+	}	
     	.highway-car {
 			width:50px;
-			animation:translateinfinite 200s linear infinite;}
+			animation:translateinfinite 300s linear infinite;}
 			.fab {
-				font-size:65px;
+				font-size:px;
 			}
 		
+
+
