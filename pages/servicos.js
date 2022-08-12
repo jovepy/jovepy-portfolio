@@ -214,10 +214,12 @@ export default function Home() {
                       </div>
                     </div>
                   </li>
+                  <li className="list-group list-group-flush mb-4">
+                  <div className='row'><br></br></div>
+    <p className="card-text text-center p-5" ><small style={{color:'white'}}>Criado por Jove.py</small></p>                 
+                  </li>
                 </ul>
-    <div className='row'><br></br></div>
-    <div className='row'><br></br></div>
-    <p className="card-text text-center p-5" ><small style={{color:'white'}}>Criado por Jove.py</small></p>                
+    
     </div>
     </td>
     </tr>
