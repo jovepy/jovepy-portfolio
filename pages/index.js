@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </div>
     </nav>
-    <div className='row mb-4'><br></br></div>    
+    <div className='row mb-4'><br></br></div>   
     <div className='bannersection' style={{opacity:'70%'}}>
     <section className="slide-option">
       <div id="stffull" className="highway-slider">
@@ -128,6 +128,7 @@ export default function Home() {
       </div>
     </section>
     </div>
+    <div className='row'><br></br></div>   
     <div className='p-1 mb-5'>
     <div className="card mb-5 shadow-lg bg-light p-4 ">
           <div className="row g-0">
