@@ -7,6 +7,7 @@ import '../styles/jornal.css'
 import '../styles/python.css'
 import '../styles/barskils.css'
 
+
 function MyApp({ Component, pageProps }) {
   
   useEffect(() => {
