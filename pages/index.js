@@ -77,7 +77,7 @@ export default function Home() {
                 <a className="nav-link active" aria-current="page" href="#" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Inicio</h5></div></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Serviços</h5></div></a>
+                <a className="nav-link" href="/servicos" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Serviços</h5></div></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Projetos</h5></div></a>
