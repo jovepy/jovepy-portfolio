@@ -70,14 +70,13 @@ export default function Home() {
             
             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div className="offcanvas-body" style={{background:'#3770A0'}}>
+          <div className="offcanvas-body" style={{background:'#3770A0', color:'white'}}>
             <ul className="navbar-nav justify-content-end flex-grow-2 pe-3 ">
               <li className="nav-item">
-                
-                <a className="nav-link active" aria-current="page" href="#" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Inicio</h5></div></a>
+                <Link className="nav-link active" aria-current="page" href="https://www.jovepy.com.br/" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Inicio</h5></div></Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Serviços</h5></div></a>
+                <Link className="nav-link" href="/servicos" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Serviços</h5></div></Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Projetos</h5></div></a>
