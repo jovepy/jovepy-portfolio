@@ -121,16 +121,19 @@ export default function Home() {
     <tr>
     <td className='align-middle'>
     <div className='container-fluid-lg mt-4 p-2'>
-    <ul className="list-group list-group-flush">
-                      <li className="list-group list-group-flush mb-4 ">
-                        <a type="button" className='slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                        Business Inteligence
+    <ul className="list-group list-group-flush" >
+      
+        <h5 className='border-bottom fs-2 mb-3 fw-normal'>Serviços</h5>
+            <span className='fw-bold align-bottom border-bottom mb-4'><p className='text-center'>Todos os serviços são prestados sob contrato.</p></span>
+                      <li className="list-group list-group-flush mb-4">
+                        <a type="button" className='shadow   slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        B.I
                         </a>
                         <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
                           <div className="modal-dialog">
                             <div className="modal-content">
                               <div className="modal-header">
-                                <h5 className="modal-title" id="exampleModalLabel1">Business Inteligence</h5>
+                                <h5 className="modal-title" id="exampleModalLabel1">B.I</h5>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
                               <div className="modal-body">
@@ -138,7 +141,6 @@ export default function Home() {
                             </div>
                             <div className='border-top'></div>
                             <div className="text-center d-grid gap-2 m-4">
-                          <button type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal"  style={{color:'white',background:'#3770A0'}}>Habilidades</button>
                           <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                           </div>
                         </div>
@@ -146,8 +148,8 @@ export default function Home() {
                     </div>
                   </li>
                   <li className="list-group list-group-flush mb-4">
-                    <a type="button" className='slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Automação de processo operacional
+                    <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Automação
                     </a>
                       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
@@ -161,7 +163,6 @@ export default function Home() {
                             </div>
                             <div className='border-top'></div>
                             <div className="text-center d-grid gap-2 m-4">
-                              <button  type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal1" style={{color:'white',background:'#3770A0'}}>Sobre</button>  
                               <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Gostei do seu site, como faço para ter um?')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                           </div>
                         </div>
@@ -169,8 +170,8 @@ export default function Home() {
                     </div>                  
                   </li>
                   <li className="list-group list-group-flush mb-4">
-                        <a type="button" className='slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}}data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                        Análise quantitativa de investimentos
+                        <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}}data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        Investimentos
                         </a>
                         <div className="modal fade" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
                           <div className="modal-dialog">
@@ -184,7 +185,6 @@ export default function Home() {
                             </div>
                             <div className='border-top'></div>
                             <div className="text-center d-grid gap-2 m-4">
-                          <button type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal" style={{color:'white',background:'#3770A0'}}>Habilidades</button>
                           <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                           </div>
                         </div>
@@ -192,8 +192,8 @@ export default function Home() {
                     </div>
                   </li>
                   <li className="list-group list-group-flush mb-4">
-                        <a type="button" className='slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                        Sites com design focado em celulares
+                        <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        Sites
                         </a>
                         <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
                           <div className="modal-dialog">
@@ -207,17 +207,14 @@ export default function Home() {
                             </div>
                             <div className='border-top'></div>
                             <div className="text-center d-grid gap-2 m-4">
-                          <button type="button" className='btn' data-bs-toggle="modal" data-bs-target="#exampleModal" style={{color:'white',background:'#3770A0'}}>Habilidades</button>
                           <button className="btn" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')} style={{color:'white',background:'#3770A0'}}>Envie-me uma mensagem</button>
                           </div>
                         </div>
                       </div>
                     </div>
                   </li>
-                  <li className="list-group list-group-flush mb-4">
-                  <div className='row'><br></br></div>
-    <p className="card-text text-center p-5" ><small style={{color:'white'}}>Criado por Jove.py</small></p>                 
-                  </li>
+          <p className="card-text text-center" ><small style={{color:'white'}}>Criado por Jove.py</small></p>                 
+          
                 </ul>
     
     </div>

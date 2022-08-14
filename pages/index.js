@@ -290,12 +290,11 @@ export default function Home() {
         <button className="slide-in-blurred-left btn btn-outline-warning mt-4" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
       </div>
     </div>
+    <p className="card-text text-center p-2" ><small style={{color:'white'}}>Criado por Jove.py</small></p>
+    <div className='row'><br></br></div>
     </div>
     {/*footer padrao*/}          
-    <div><br></br></div>
-    <div><br></br></div>
     
-    <p className="card-text text-center p-5" ><small style={{color:'white'}}>Criado por Jove.py</small></p>
     </div>
   
   )

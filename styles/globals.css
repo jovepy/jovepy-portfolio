@@ -182,6 +182,7 @@
     background-image: url('../public/fundo2.svg');
     position: relative;
     height: 100vh;
+    width:100vw;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -191,6 +192,7 @@
     background-image: url('../public/fundo2.svg');
     position: relative;
     height: 100vh;
+    width:100vw;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
