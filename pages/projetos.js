@@ -122,11 +122,9 @@ export default function Home() {
     <td className='align-middle'>
     <div className='container-fluid-lg mt-4 p-2'>
     <ul className="list-group list-group-flush" >
-      
-        <h5 className='border-bottom fs-2 mb-3 fw-normal'>Projetos</h5>
             <span className='fw-bold align-bottom border-bottom mb-4'><p className='text-center'>Todos os projetos são abertos à sociedade. </p></span>
                       <li className="list-group list-group-flush mb-4">
-                        <a type="button" className='shadow   slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        <a type="button" className='shadow   slide-in-blurred-left fs-4 btn' style={{background:'#3770A0', color:'white'}} data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         Scraping CVM
                         </a>
                         <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
@@ -148,7 +146,7 @@ export default function Home() {
                     </div>
                   </li>
                   <li className="list-group list-group-flush mb-4">
-                    <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#3770A0', color:'white'}} data-bs-toggle="modal" data-bs-target="#exampleModal">
                       Chatboot Whatsapp                    </a>
                       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog">
@@ -169,7 +167,7 @@ export default function Home() {
                     </div>                  
                   </li>
                   <li className="list-group list-group-flush mb-4">
-                        <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}}data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#3770A0', color:'white'}}data-bs-toggle="modal" data-bs-target="#exampleModal3">
                         COVID-19 PB
                         </a>
                         <div className="modal fade" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
@@ -191,7 +189,7 @@ export default function Home() {
                     </div>
                   </li>
                   <li className="list-group list-group-flush mb-4">
-                        <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#FFDC4E'}} data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <a type="button" className='shadow slide-in-blurred-left fs-4 btn' style={{background:'#3770A0', color:'white'}} data-bs-toggle="modal" data-bs-target="#exampleModal2">
                         Empreenda
                         </a>
                         <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
