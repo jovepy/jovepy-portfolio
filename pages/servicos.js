@@ -141,7 +141,7 @@ export default function Home() {
                                 <h5 className="modal-title" id="exampleModalLabel1">Business Inteligence</h5>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
-                              <div className="modal-body">
+                              <div className="modal-body text-start">
                                 <p className='fs-6 mb-1'>Business Inteligence (B.I) é a gestão estratégica de negócios orientada por dados.</p>
                                 <p  className='fs-6 mb-1'>O serviço de B.I inclui desde o mapeamento dos dados do negocio até a criação das dashboards para tomada de decisão.</p>
                                 <p  className='fs-6 mb-1'>
@@ -174,7 +174,7 @@ export default function Home() {
                               <h5 className="modal-title" id="exampleModalLabel">Automação de POP - Processo Operacional Padrão</h5>
                               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div className="modal-body">
+                            <div className="modal-body text-start">
                             <p  className='fs-6 mb-2'>
                             Python é uma linguagem muito versátil, especialmente para manipulação de dados e processos. Todo método operacional pode ser automatizado, desde a inserção e coleta de dados para um sistema, até tomadas de decisões lógicas.
                             </p>
@@ -206,7 +206,7 @@ export default function Home() {
                                 <h5 className="modal-title" id="exampleModalLabel3">Análise quantitativa de investimentos</h5>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
-                              <div className="modal-body">
+                              <div className="modal-body text-start">
                               <p className='fs-6-mb-1'>
                               O investimento quantitativo é a forma mais moderna de investir, sob a orientação dos dados e cálculos sofisticados, busca-se de modo imparcial o investimento mais aderente e rentável para o investidor.
                               </p>
@@ -234,7 +234,7 @@ export default function Home() {
                                 <h5 className="modal-title" id="exampleModalLabel2">Sites com design focado em celulares</h5>
                                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                               </div>
-                              <div className="modal-body">
+                              <div className="modal-body text-start">
                                 <p className='fs-6-mb-1'>
                                 Pesquisas indicam que as novas gerações utilizam cada vez menos computadores e preferem os celulares. Além disso, cada vez mais as novas gerações buscam o contato indireto sobre os produtos antes de os adquirirem, realizando buscas e apurando informações relevantes. Por isso, um site profissional é fundamental para conseguir novos clientes e ocupar seu espaço no mercado.
                                 </p>
