@@ -90,7 +90,7 @@ export default function Home() {
                 <Link className="nav-link" href="#" style={{color:'white'}}><div className='border-bottom mb-0' onClick={() => Router.push('https://jovepy-django.herokuapp.com/blog')}><h5 className='text-center fs-4 mb-0'>Blog</h5></div></Link>
               </li>
               <li className="nav-item mt-3">
-                <Link className="nav-link" href="#" style={{color:'white'}}><div className='border-bottom mb-0'onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Gostaria de saber mais informações sobre os seus serviços.')}><h5 className='text-center fs-4 mb-0'>Contato</h5></div></Link>
+                <Link className="nav-link" href="#" style={{color:'white'}}><div className='border-bottom mb-0' onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Gostaria de saber mais informações sobre os seus serviços.')}><h5 className='text-center fs-4 mb-0'>Contato</h5></div></Link>
               </li>
             </ul>
             
