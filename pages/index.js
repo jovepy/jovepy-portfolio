@@ -79,7 +79,7 @@ export default function Home() {
                 <Link className="nav-link"  type='button' href="/servicos" style={{color:'white'}}><div className='border-bottom mb-0'><h5 className='text-center fs-4 mb-0'>Serviços</h5></div></Link>
               </li>
               <li className="nav-item mt-3">
-                <Link className="nav-link" href='#'   style={{color:'white'}}><div className='border-bottom mb-0' type='button' onClick={() => Router.push('http://jovepy-django.herokuapp.com/blog')}><h5 className='text-center fs-4 mb-0'>Artigos</h5></div></Link>
+                <Link className="nav-link" href='#'   style={{color:'white'}}><div className='border-bottom mb-0' type='button' onClick={() => Router.push('http://jovepy-django.herokuapp.com/blog')}><h5 className='text-center fs-4 mb-0'>Blog</h5></div></Link>
 
                 <Link className="nav-link" href='#'  style={{color:'white'}}><div className='border-bottom mb-0' type='button' onClick={() => Router.push("https://jovepy-django.herokuapp.com/")}><h5 className='text-center fs-4 mb-0'>Projetos</h5></div></Link>
               </li>
